@@ -1,0 +1,7 @@
+2024/06/15-11:47:37.900 1274 Creating DB /home/marc/.config/chromium/Default/IndexedDB/https_popcorntimeonline.xyz_0.indexeddb.leveldb since it was missing.
+2024/06/15-11:47:38.004 1274 Reusing MANIFEST /home/marc/.config/chromium/Default/IndexedDB/https_popcorntimeonline.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/15-11:47:38.389 1274 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/06/15-11:47:40.505 1275 Level-0 table #5: started
+2024/06/15-11:47:40.535 1275 Level-0 table #5: 1479 bytes OK
+2024/06/15-11:47:40.627 1275 Delete type=0 #3
+2024/06/15-11:47:40.628 1275 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,9 @@
+2024/09/11-11:56:01.327 11cd4 Reusing MANIFEST /home/marc/.config/superProductivity/Local Storage/leveldb/MANIFEST-000001
+2024/09/11-11:56:01.366 11cd4 Recovering log #76
+2024/09/11-11:56:01.416 11cd4 Reusing old log /home/marc/.config/superProductivity/Local Storage/leveldb/000076.log 
+2024/09/11-12:04:03.766 11cd4 Level-0 table #80: started
+2024/09/11-12:04:03.835 11cd4 Level-0 table #80: 10495 bytes OK
+2024/09/11-12:04:03.968 11cd4 Delete type=0 #76
+2024/09/11-12:48:03.683 11cd5 Level-0 table #82: started
+2024/09/11-12:48:03.730 11cd5 Level-0 table #82: 11164 bytes OK
+2024/09/11-12:48:03.861 11cd5 Delete type=0 #79

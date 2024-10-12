@@ -1,0 +1,33 @@
+#___aliases
+
+#__abreviations
+alias v="vim"
+alias n="nano"
+alias lsa="ls -a"
+alias lsla="ls -la"
+alias lsl="ls -l"
+alias pac="sudo pacman "
+alias nv="nvim"
+alias neo="neofetch"
+alias h="htop"
+alias hm-build="home-manager build"
+alias hm-switch="home-manager switch"
+#__
+
+#__wallpapers and others
+alias vn="variety -n"
+alias vp="variety -p"
+alias vs="variety --selector"
+alias w="nitrogen --random --set-zoom-fill /mnt/space/pictures/"
+alias ww="nitrogen --random --set-zoom-fill /mnt/space/pictures/"
+alias www="nitrogen --random --set-zoom-fill /mnt/space/pictures/"
+alias wwww="nitrogen --random --set-zoom-fill /mnt/space/pictures/"
+
+#__git bare
+alias git-dotfiles="$HOME/.nix-profile/bin/git --git-dir=$lib/public/dotfiles --work-tree=$HOME"
+alias ls-dotfiles="git-dotfiles ls-tree --full-tree --name-only -r HEAD"
+
+#__apps and commands
+alias wgetWeb="wget --mirror --page-requisites --convert-link --no-clobber --no-parent --domains "
+alias stow-dotfiles="stow -d /mnt/storage/dotfiles/ -t /home/marc/ ."
+alias sync-nixapps="rsync -avu --delete /home/marc/.nix-profile/share/applications/ /home/marc/.local/share/applications/"

@@ -1,0 +1,51 @@
+### KITTY CONFIGURATION FILE
+
+font_family CaskaydiaMono Nerd Font Mono
+#font_family ComicShannsMono Nerd Font Mono
+bold_font   auto
+italic_font   auto
+bold_italic_font   auto
+
+font_size 13
+
+cursor_shape block
+cursor_beam_thickness 1.5
+cursor_stop_blinking_after 15.0
+
+cursor_blink_interval 1
+
+enable_audio_bell no
+
+remember_window_size yes 
+placement_strategy top-left
+window_border_width 1
+window_margin_width 0
+window_padding_width 0
+hide_window_decoration yes
+
+confirm_os_window_close 0
+
+# foreground #dddddd
+# background #333333
+background_opacity 0.9
+dynamic_background_opacity yes
+# selection_foreground #000000
+# selection_background #fffacd
+
+shell zsh
+editor nvim
+
+map kitty_mod+f5 load_config_file
+map kitty_mod+f2 edit_config_file
+map kitty_mod+f6 debug_config
+
+map kitty_mod+t tmux 
+map kitty_mod+up set_background_opacity +0.05
+map kitty_mod+down set_background_opacity -0.05
+kitty_mod ctrl+shift
+
+
+# BEGIN_KITTY_THEME
+# Bluloco Dark
+include current-theme.conf
+# END_KITTY_THEME

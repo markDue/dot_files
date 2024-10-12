@@ -1,0 +1,36 @@
+/* ROFI CONFIGURATION FILE */
+
+configuration {
+  display-drun: "apps ";
+  display-filebrowser: "files ";
+  display-window: "windows ";
+  drun-display-format: "{icon} {name}";
+  //font: "Hack bold 9";  
+  font: "Ubuntu normal 10";  
+  modi: "drun,run,window,filebrowser";
+  show-icons: true;
+  icon-theme: "Papirus";
+  }
+
+//@theme "/dev/null"
+//@import "~/.cache/wal/colors-rofi-light"
+//@import "~/.config/rofi/themes/sidebar.rasi"
+
+/* * {
+	//background-color: #3d708090;
+	background-color: inherit;
+	text-color: inherit;
+        //color: rgba(245, 245, 245, 0.8);
+}
+window {
+    height: 20%;
+    width: 100%;
+    location: south;
+    anchor: south;
+    background-color: #708090aa;
+   // background-color: rgba(245, 245, 245, 0.8);
+    border:           2;
+    padding:          4;
+    opacity-level: 0.5;
+} */
+

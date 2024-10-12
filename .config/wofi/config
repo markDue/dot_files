@@ -1,0 +1,8 @@
+image_size=24
+width=40%
+height=200
+insensitive=true
+mode=drun,run
+columns=1
+padding:0
+lines=16

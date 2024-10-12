@@ -1,0 +1,6 @@
+2024/04/21-23:02:34.959 c58 Creating DB /home/marc/.config/chromium/Default/IndexedDB/https_www.justwatch.com_0.indexeddb.leveldb since it was missing.
+2024/04/21-23:02:34.966 c58 Reusing MANIFEST /home/marc/.config/chromium/Default/IndexedDB/https_www.justwatch.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/21-23:02:34.986 c6f Level-0 table #5: started
+2024/04/21-23:02:34.991 c6f Level-0 table #5: 1293 bytes OK
+2024/04/21-23:02:34.998 c6f Delete type=0 #3
+2024/04/21-23:02:35.000 c6f Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

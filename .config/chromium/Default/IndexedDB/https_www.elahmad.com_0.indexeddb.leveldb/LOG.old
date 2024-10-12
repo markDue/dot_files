@@ -1,0 +1,6 @@
+2024/05/04-22:50:13.978 11106 Creating DB /home/marc/.config/chromium/Default/IndexedDB/https_www.elahmad.com_0.indexeddb.leveldb since it was missing.
+2024/05/04-22:50:13.985 11106 Reusing MANIFEST /home/marc/.config/chromium/Default/IndexedDB/https_www.elahmad.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/04-23:05:44.878 11106 Level-0 table #5: started
+2024/05/04-23:05:44.881 11106 Level-0 table #5: 2608 bytes OK
+2024/05/04-23:05:44.885 11106 Delete type=0 #3
+2024/05/04-23:05:44.886 11106 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

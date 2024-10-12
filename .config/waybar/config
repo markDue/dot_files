@@ -1,0 +1,44 @@
+{
+    "layer": "bottom", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 16, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 0, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces", "river/tags"],
+    "modules-center": [],
+    "modules-right": ["tray", "pulseaudio", "keyboard-state", "sway/language", "clock"],
+    // Modules configuration
+    // },
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+    "river/tags": {
+        "num-tags": 9,
+        "tag-labels": [ "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" ] 
+    },
+        "sway/workspaces": {
+    "all-outputs": true
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+
+   "tray": {
+        "icon-size": 14,
+        "spacing": 10
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    
+   }
+

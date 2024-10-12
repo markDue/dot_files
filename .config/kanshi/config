@@ -1,0 +1,22 @@
+profile big {
+  output DP-3 disable 
+  output "Kingston Tech Corporation 43'TV 0x00000001" mode 1920x1080@60.000Hz position 0,0
+}
+
+profile two {
+  #output DP-3 mode 1440x900@74.984001Hz position 0,0
+  #output HDMI-A-1 mode 1920x1080@60.000Hz position 1440,0
+
+  output "Dell Inc. DELL E1909W H997F9495Y9S" mode 1440x900@74.984001Hz position 0,0
+  output "Kingston Tech Corporation 43'TV 0x00000001" mode 1920x1080@60.000Hz position 1440,0
+
+  #exec swaymsg workspace "One", move workspace to '"Dell Inc. DELL E1909W H997F9495Y9S"'
+  #exec swaymsg workspace "Two", move workspace to '"Kingston Tech Corporation 43'TV 0x00000001"'
+}
+
+profile small {
+  output HDMI-A-1 disable 
+  output "Dell Inc. DELL E1909W H997F9495Y9S" mode 1440x900@74.984001Hz position 0,0
+}
+
+

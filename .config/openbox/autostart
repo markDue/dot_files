@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+#/usr/libexec/kf5/polkit-kde-authentication-agent-1 &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+/usr/libexec/xfce-polkit &
+
+killall volumeicon-applet &
+killall bluemean-applet &
+
+#nitrogen --random --set-zoom-fill /home/marc/Pictures/backgrounds
+nitrogen --restore &
+#polybar marc &
+picom  --experimental-backends &
+#variety &
+#tint2 &
+#tint2 -c ~/.config/tint2/tint2rc &
+tint2 &
+
+nm-applet &
+joplin-desktop &
+dunst &
+volumeicon-applet &
+blueman-applet &
+

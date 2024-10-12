@@ -3,7 +3,6 @@
 /.tmux/
 /.vscode/
 /.vscode-oss/
-.config/
 
 .stow-local-ignore
 !README.md

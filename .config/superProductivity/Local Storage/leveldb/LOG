@@ -1,0 +1,15 @@
+2024/09/11-14:23:45.001 13b2c Reusing MANIFEST /home/marc/.config/superProductivity/Local Storage/leveldb/MANIFEST-000001
+2024/09/11-14:23:45.047 13b2c Recovering log #81
+2024/09/11-14:23:45.090 13b2c Reusing old log /home/marc/.config/superProductivity/Local Storage/leveldb/000081.log 
+2024/09/11-14:56:46.602 13b2a Level-0 table #85: started
+2024/09/11-14:56:46.745 13b2a Level-0 table #85: 11995 bytes OK
+2024/09/11-14:56:46.857 13b2a Delete type=0 #81
+2024/09/11-14:56:46.858 13b2a Compacting 4@0 + 1@1 files
+2024/09/11-14:56:46.938 13b2a Generated table #86@0: 3 keys, 527 bytes
+2024/09/11-14:56:46.939 13b2a Compacted 4@0 + 1@1 files => 527 bytes
+2024/09/11-14:56:47.020 13b2a compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/11-14:56:47.020 13b2a Delete type=2 #75
+2024/09/11-14:56:47.020 13b2a Delete type=2 #77
+2024/09/11-14:56:47.020 13b2a Delete type=2 #80
+2024/09/11-14:56:47.021 13b2a Delete type=2 #82
+2024/09/11-14:56:47.021 13b2a Delete type=2 #85

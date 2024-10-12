@@ -1,0 +1,17 @@
+2024/04/27-21:56:05.223 69b Creating DB /home/marc/.config/chromium/Default/IndexedDB/https_tv247us.com_0.indexeddb.leveldb since it was missing.
+2024/04/27-21:56:05.229 69b Reusing MANIFEST /home/marc/.config/chromium/Default/IndexedDB/https_tv247us.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/27-21:56:05.806 683 Level-0 table #5: started
+2024/04/27-21:56:05.810 683 Level-0 table #5: 2097 bytes OK
+2024/04/27-21:56:05.815 683 Delete type=0 #3
+2024/04/27-21:56:05.816 683 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/27-21:56:05.948 681 Level-0 table #7: started
+2024/04/27-21:56:05.951 681 Level-0 table #7: 639 bytes OK
+2024/04/27-21:56:05.959 681 Delete type=0 #4
+2024/04/27-21:56:05.960 681 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/27-21:56:05.960 681 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 181 : 0
+2024/04/27-21:56:05.960 681 Compacting 1@1 + 1@2 files
+2024/04/27-21:56:05.965 681 Generated table #8@1: 7 keys, 282 bytes
+2024/04/27-21:56:05.965 681 Compacted 1@1 + 1@2 files => 282 bytes
+2024/04/27-21:56:05.971 681 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/27-21:56:05.972 681 Delete type=2 #7
+2024/04/27-21:56:05.972 683 Manual compaction at level-1 from '\x00\x02\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 181 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

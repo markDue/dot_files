@@ -1,0 +1,6 @@
+2024/05/28-01:07:53.428 8c43 Creating DB /home/marc/.config/chromium/Default/IndexedDB/https_www.udemy.com_0.indexeddb.leveldb since it was missing.
+2024/05/28-01:07:53.439 8c43 Reusing MANIFEST /home/marc/.config/chromium/Default/IndexedDB/https_www.udemy.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/28-01:12:19.333 8c46 Level-0 table #5: started
+2024/05/28-01:12:19.337 8c46 Level-0 table #5: 4822 bytes OK
+2024/05/28-01:12:19.342 8c46 Delete type=0 #3
+2024/05/28-01:12:19.342 8c46 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

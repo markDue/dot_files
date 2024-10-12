@@ -1,0 +1,410 @@
+{
+          "id": 10,
+          "type": "workspace",
+          "orientation": "horizontal",
+          "percent": null,
+          "urgent": false,
+          "marks": [],
+          "focused": false,
+          "layout": "splith",
+          "border": "none",
+          "current_border_width": 0,
+          "rect": {
+            "x": 0,
+            "y": 17,
+            "width": 1440,
+            "height": 883
+          },
+          "deco_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "2",
+          "window": null,
+          "nodes": [
+            {
+              "id": 135,
+              "type": "con",
+              "orientation": "vertical",
+              "percent": 0.56944444444444442,
+              "urgent": false,
+              "marks": [],
+              "focused": false,
+              "layout": "splitv",
+              "border": "none",
+              "current_border_width": 0,
+              "rect": {
+                "x": 0,
+                "y": 17,
+                "width": 820,
+                "height": 883
+              },
+              "deco_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "name": null,
+              "window": null,
+              "nodes": [
+                {
+                  "id": 11,
+                  "type": "con",
+                  "orientation": "none",
+                  "percent": 0.43261608154020387,
+                  "urgent": false,
+                  "marks": [],
+                  "focused": false,
+                  "layout": "none",
+                  "border": "normal",
+                  "current_border_width": 2,
+                  "rect": {
+                    "x": 0,
+                    "y": 40,
+                    "width": 820,
+                    "height": 359
+                  },
+                  "deco_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 820,
+                    "height": 23
+                  },
+                  "window_rect": {
+                    "x": 2,
+                    "y": 0,
+                    "width": 816,
+                    "height": 357
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 1036,
+                    "height": 768
+                  },
+                  "name": "app.js - 14-grocery-bud - VSCodium",
+                  "window": 4194308,
+                  "nodes": [],
+                  "floating_nodes": [],
+                  "focus": [],
+                  "fullscreen_mode": 0,
+                  "sticky": false,
+                  "pid": 7859,
+                  "app_id": null,
+                  "visible": false,
+                  "max_render_time": 0,
+                  "shell": "xwayland",
+                  "inhibit_idle": false,
+                  "idle_inhibitors": {
+                    "user": "none",
+                    "application": "none"
+                  },
+                  "window_properties": {
+                    "class": "VSCodium",
+                    "instance": "vscodium",
+                    "title": "app.js - 14-grocery-bud - VSCodium",
+                    "transient_for": null,
+                    "window_role": "browser-window",
+                    "window_type": "normal"
+                  }
+                },
+                {
+                  "id": 19,
+                  "type": "con",
+                  "orientation": "none",
+                  "percent": 0.56738391845979619,
+                  "urgent": false,
+                  "marks": [],
+                  "focused": false,
+                  "layout": "tabbed",
+                  "border": "none",
+                  "current_border_width": 0,
+                  "rect": {
+                    "x": 0,
+                    "y": 399,
+                    "width": 820,
+                    "height": 501
+                  },
+                  "deco_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "window_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "name": null,
+                  "window": null,
+                  "nodes": [
+                    {
+                      "id": 18,
+                      "type": "con",
+                      "orientation": "none",
+                      "percent": 1.0,
+                      "urgent": false,
+                      "marks": [],
+                      "focused": false,
+                      "layout": "none",
+                      "border": "normal",
+                      "current_border_width": 2,
+                      "rect": {
+                        "x": 0,
+                        "y": 422,
+                        "width": 820,
+                        "height": 478
+                      },
+                      "deco_rect": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 410,
+                        "height": 23
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 816,
+                        "height": 476
+                      },
+                      "geometry": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 900,
+                        "height": 320
+                      },
+                      "name": "Developer Tools — Grocery Bud — http:\/\/127.0.0.1:5500\/setup\/index.html?",
+                      "window": null,
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "sticky": false,
+                      "pid": 8817,
+                      "app_id": "org.mozilla.firefox",
+                      "visible": false,
+                      "max_render_time": 0,
+                      "shell": "xdg_shell",
+                      "inhibit_idle": false,
+                      "idle_inhibitors": {
+                        "user": "none",
+                        "application": "none"
+                      }
+                    },
+                    {
+                      "id": 20,
+                      "type": "con",
+                      "orientation": "none",
+                      "percent": 1.0,
+                      "urgent": false,
+                      "marks": [],
+                      "focused": false,
+                      "layout": "none",
+                      "border": "normal",
+                      "current_border_width": 2,
+                      "rect": {
+                        "x": 0,
+                        "y": 422,
+                        "width": 820,
+                        "height": 478
+                      },
+                      "deco_rect": {
+                        "x": 410,
+                        "y": 0,
+                        "width": 410,
+                        "height": 23
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 816,
+                        "height": 476
+                      },
+                      "geometry": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 621,
+                        "height": 858
+                      },
+                      "name": "Element: click event - Web APIs | MDN — Mozilla Firefox",
+                      "window": null,
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "sticky": false,
+                      "pid": 8817,
+                      "app_id": "org.mozilla.firefox",
+                      "visible": false,
+                      "max_render_time": 0,
+                      "shell": "xdg_shell",
+                      "inhibit_idle": false,
+                      "idle_inhibitors": {
+                        "user": "none",
+                        "application": "none"
+                      }
+                    }
+                  ],
+                  "floating_nodes": [],
+                  "focus": [
+                    20,
+                    18
+                  ],
+                  "fullscreen_mode": 0,
+                  "sticky": false
+                }
+              ],
+              "floating_nodes": [],
+              "focus": [
+                19,
+                11
+              ],
+              "fullscreen_mode": 0,
+              "sticky": false
+            },
+            {
+              "id": 136,
+              "type": "con",
+              "orientation": "none",
+              "percent": 0.43055555555555558,
+              "urgent": false,
+              "marks": [],
+              "focused": false,
+              "layout": "tabbed",
+              "border": "none",
+              "current_border_width": 0,
+              "rect": {
+                "x": 820,
+                "y": 17,
+                "width": 620,
+                "height": 883
+              },
+              "deco_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "name": null,
+              "window": null,
+              "nodes": [
+                {
+                  "id": 15,
+                  "type": "con",
+                  "orientation": "none",
+                  "percent": 1.0,
+                  "urgent": false,
+                  "marks": [],
+                  "focused": false,
+                  "layout": "none",
+                  "border": "normal",
+                  "current_border_width": 2,
+                  "rect": {
+                    "x": 820,
+                    "y": 40,
+                    "width": 620,
+                    "height": 860
+                  },
+                  "deco_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 620,
+                    "height": 23
+                  },
+                  "window_rect": {
+                    "x": 2,
+                    "y": 0,
+                    "width": 616,
+                    "height": 858
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 716,
+                    "height": 858
+                  },
+                  "name": "Grocery Bud — Mozilla Firefox",
+                  "window": null,
+                  "nodes": [],
+                  "floating_nodes": [],
+                  "focus": [],
+                  "fullscreen_mode": 0,
+                  "sticky": false,
+                  "pid": 8817,
+                  "app_id": "org.mozilla.firefox",
+                  "visible": false,
+                  "max_render_time": 0,
+                  "shell": "xdg_shell",
+                  "inhibit_idle": false,
+                  "idle_inhibitors": {
+                    "user": "none",
+                    "application": "none"
+                  }
+                }
+              ],
+              "floating_nodes": [],
+              "focus": [
+                15
+              ],
+              "fullscreen_mode": 0,
+              "sticky": false
+            }
+          ],
+          "floating_nodes": [],
+          "focus": [
+            135,
+            136
+          ],
+          "fullscreen_mode": 1,
+          "sticky": false,
+          "num": 2,
+          "output": "DP-3",
+          "representation": "H[V[VSCodium T[org.mozilla.firefox org.mozilla.firefox]] T[org.mozilla.firefox]]"
+        }

@@ -1,0 +1,50 @@
+#__ variables
+
+
+store="/mnt/storage"
+storeDown="$store/downloads"
+storeDoc="$store/documents"
+storePic="$store/pictures"
+
+#__ common directories
+_awesome="$HOME/.config/awesome"
+_river="$HOME/.config/river"
+_polybar="$HOME/.config/polybar"
+_bspwm_dir="$HOME/.config/bspwm"
+_rofi="$HOME/.config/rofi"
+_sxhkd="$HOME/.config/sxhkd"
+_zsh="$HOME/.config/zsh"
+_nvim="$HOME/.config/nvim"
+_wbar="$HOME/.config/waybar"
+_localBin="$HOME/.local/bin/" 
+_tmux="$HOME/.config/tmux/"
+_helix="$HOME/.config/helix/"
+
+#__ common window managers
+_rvwc="$HOME/.config/river/init"
+_awm="$HOME/.config/awesome/rc.lua"
+_bspwm="$HOME/.config/bspwm/bspwmrc"
+_swwc="$HOME/.config/sway/config"
+_wfwc="$HOME/.config/wayfire.ini"
+_scwm="$HOME/.config/spectrwm/spectrwm.conf"
+_obwm="$HOME/.config/openbox/rc.xml"
+
+#__ common files and tools
+_tmx="$HOME/.config/tmux/tmux.conf"
+_hm="$HOME/.config/home-manager/"
+_hmf="$HOME/.config/home-manager/flake.nix"
+_nixpkgs="$HOME/.config/nixpkgs/config.nix"
+_nix="$HOME/.config/nix/nix.conf"
+_sxhkdrc="$HOME/.config/sxhkd/sxhkdrc"
+_vimrc="$HOME/.vimrc"
+_nvimrc="$HOME/.config/nvim/init.lua"
+_fishrc="$HOME/.config/fish/config.fish"
+_zprofile="$HOME/.config/zsh/zprofile"
+_zshrc="$HOME/.config/zsh/.zshrc"
+_kitty="$HOME/.config/kitty/kitty.conf"
+_alacritty="$HOME/.config/alacritty/alacritty.yml"
+_picomrc="$HOME/.config/picom/picom.conf"
+_aliases="$HOME/.config/zsh/aliases"
+_nixbin="$HOME/.nix-profile/bin/"
+
+font_type="The quick brown fox jumps over the lazy dog."

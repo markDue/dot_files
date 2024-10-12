@@ -1,0 +1,12 @@
+2024/09/26-16:47:28.452 1d2f Reusing MANIFEST /home/marc/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/26-16:47:28.453 1d2f Recovering log #371
+2024/09/26-16:47:28.468 1d2f Reusing old log /home/marc/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000371.log 
+2024/09/26-16:50:52.920 1d30 Level-0 table #376: started
+2024/09/26-16:50:53.009 1d30 Level-0 table #376: 1526206 bytes OK
+2024/09/26-16:50:53.113 1d30 Delete type=0 #371
+2024/09/26-16:57:17.680 1d3b Compacting 1@1 + 1@2 files
+2024/09/26-16:57:17.868 1d3b Generated table #377@1: 357 keys, 36943 bytes
+2024/09/26-16:57:17.869 1d3b Compacted 1@1 + 1@2 files => 36943 bytes
+2024/09/26-16:57:18.011 1d3b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/26-16:57:18.011 1d3b Delete type=2 #373
+2024/09/26-16:57:18.011 1d3b Delete type=2 #376

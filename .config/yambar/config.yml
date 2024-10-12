@@ -1,0 +1,52 @@
+hack: &hack Hack Nerd Font:pixelsize=13
+bg_default: &bg_default {stack: [{background: {color: 81A1C1ff}}, {underline: {size: 4, color: D8DEE9ff}}]}
+bar:
+  height: 20
+  location: top
+    #font: DejaVu:pixelsize=12:weight=bold
+  #font: Cantarell:pixelsize=12:weight=bold
+  font: FantasqueSansMNerdFontMono:pixelsize=13:weight=bold
+  spacing: 2
+  margin: 0
+  layer: top
+  foreground: eeeeeeff
+  background: 2E3440dd
+
+  right:
+    - alsa:
+        card: hw:PCH
+        mixer: Master
+        content: {string: {text: "    {volume}    "}}
+
+    - clock:
+        time-format: "%b %a %I:%M %p "
+        content:
+          - string: {text: "{time}",}
+          
+  #left:
+
+          #  left:
+          #    - clock:
+          #        time-format: "%b  %a  %I:%M %p "
+          #        content:
+          #          - string: {text: "{time}",}
+
+ 
+          #    - sway-xkb:
+          #identifiers:
+          #- 1523:7:HID_05f3:0007
+          #- 7247:2:USB_USB_Keykoard
+          #spacing: 5
+          #content: {string: {text: "{id}: {layout}"}
+
+
+        
+          #  content:
+          #    progres-bar:
+          #    tag: tag_name
+          #    length: 20
+          #    start: {string: {text: ├}}
+          #    end: {string: {text: ┤}}
+          #    fill: {string: {text: ─}}
+          #    empty: {string: {text: ╌}}
+          #    indicator: {string: {text: ┼}}

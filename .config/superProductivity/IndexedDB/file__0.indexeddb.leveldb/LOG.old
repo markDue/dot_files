@@ -1,0 +1,111 @@
+2024/09/11-11:56:03.657 11cd5 Reusing MANIFEST /home/marc/.config/superProductivity/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/09/11-11:56:03.658 11cd5 Recovering log #435
+2024/09/11-11:56:03.856 11cd5 Reusing old log /home/marc/.config/superProductivity/IndexedDB/file__0.indexeddb.leveldb/000435.log 
+2024/09/11-11:57:49.662 11ce5 Level-0 table #440: started
+2024/09/11-11:57:49.797 11ce5 Level-0 table #440: 1581849 bytes OK
+2024/09/11-11:57:49.893 11ce5 Delete type=0 #435
+2024/09/11-11:58:43.713 11cd4 Compacting 1@1 + 1@2 files
+2024/09/11-11:58:43.797 11cd4 Generated table #441@1: 30 keys, 8092 bytes
+2024/09/11-11:58:43.798 11cd4 Compacted 1@1 + 1@2 files => 8092 bytes
+2024/09/11-11:58:43.909 11cd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-11:58:43.910 11cd4 Delete type=2 #437
+2024/09/11-11:58:43.911 11cd4 Delete type=2 #440
+2024/09/11-12:02:23.642 11cd5 Level-0 table #443: started
+2024/09/11-12:02:23.878 11cd5 Level-0 table #443: 1615014 bytes OK
+2024/09/11-12:02:24.005 11cd5 Delete type=0 #439
+2024/09/11-12:03:04.663 11cd4 Compacting 1@1 + 1@2 files
+2024/09/11-12:03:04.848 11cd4 Generated table #444@1: 34 keys, 10092 bytes
+2024/09/11-12:03:04.848 11cd4 Compacted 1@1 + 1@2 files => 10092 bytes
+2024/09/11-12:03:04.929 11cd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:03:04.930 11cd4 Delete type=2 #441
+2024/09/11-12:03:04.930 11cd4 Delete type=2 #443
+2024/09/11-12:06:58.651 11cd4 Level-0 table #446: started
+2024/09/11-12:06:58.866 11cd4 Level-0 table #446: 1590774 bytes OK
+2024/09/11-12:06:58.993 11cd4 Delete type=0 #442
+2024/09/11-12:07:42.688 11cd4 Compacting 1@1 + 1@2 files
+2024/09/11-12:07:42.754 11cd4 Generated table #447@1: 30 keys, 8090 bytes
+2024/09/11-12:07:42.754 11cd4 Compacted 1@1 + 1@2 files => 8090 bytes
+2024/09/11-12:07:42.825 11cd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:07:42.826 11cd4 Delete type=2 #444
+2024/09/11-12:07:42.826 11cd4 Delete type=2 #446
+2024/09/11-12:11:32.713 11cd5 Level-0 table #449: started
+2024/09/11-12:11:32.967 11cd5 Level-0 table #449: 1596391 bytes OK
+2024/09/11-12:11:33.116 11cd5 Delete type=0 #445
+2024/09/11-12:12:08.675 11cd4 Compacting 1@1 + 1@2 files
+2024/09/11-12:12:08.768 11cd4 Generated table #450@1: 30 keys, 9019 bytes
+2024/09/11-12:12:08.768 11cd4 Compacted 1@1 + 1@2 files => 9019 bytes
+2024/09/11-12:12:08.859 11cd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:12:08.861 11cd4 Delete type=2 #447
+2024/09/11-12:12:08.861 11cd4 Delete type=2 #449
+2024/09/11-12:16:07.664 11cd5 Level-0 table #452: started
+2024/09/11-12:16:07.809 11cd5 Level-0 table #452: 1620367 bytes OK
+2024/09/11-12:16:07.940 11cd5 Delete type=0 #448
+2024/09/11-12:16:56.691 11cd5 Compacting 1@1 + 1@2 files
+2024/09/11-12:16:56.766 11cd5 Generated table #453@1: 30 keys, 8097 bytes
+2024/09/11-12:16:56.766 11cd5 Compacted 1@1 + 1@2 files => 8097 bytes
+2024/09/11-12:16:56.857 11cd5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:16:56.859 11cd5 Delete type=2 #450
+2024/09/11-12:16:56.859 11cd5 Delete type=2 #452
+2024/09/11-12:20:41.653 11cd4 Level-0 table #455: started
+2024/09/11-12:20:41.832 11cd4 Level-0 table #455: 1605193 bytes OK
+2024/09/11-12:20:41.907 11cd4 Delete type=0 #451
+2024/09/11-12:22:04.094 11cd5 Compacting 1@1 + 1@2 files
+2024/09/11-12:22:04.270 11cd5 Generated table #456@1: 30 keys, 9022 bytes
+2024/09/11-12:22:04.270 11cd5 Compacted 1@1 + 1@2 files => 9022 bytes
+2024/09/11-12:22:04.372 11cd5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:22:04.373 11cd5 Delete type=2 #453
+2024/09/11-12:22:04.373 11cd5 Delete type=2 #455
+2024/09/11-12:34:35.642 11cd4 Level-0 table #458: started
+2024/09/11-12:34:35.752 11cd4 Level-0 table #458: 1590878 bytes OK
+2024/09/11-12:34:35.876 11cd4 Delete type=0 #454
+2024/09/11-12:35:18.677 11cd5 Compacting 1@1 + 1@2 files
+2024/09/11-12:35:18.760 11cd5 Generated table #459@1: 34 keys, 10106 bytes
+2024/09/11-12:35:18.760 11cd5 Compacted 1@1 + 1@2 files => 10106 bytes
+2024/09/11-12:35:18.821 11cd5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:35:18.829 11cd5 Delete type=2 #456
+2024/09/11-12:35:18.830 11cd5 Delete type=2 #458
+2024/09/11-12:39:09.663 11cd5 Level-0 table #461: started
+2024/09/11-12:39:09.887 11cd5 Level-0 table #461: 1593112 bytes OK
+2024/09/11-12:39:09.973 11cd5 Delete type=0 #457
+2024/09/11-12:39:51.697 11cd5 Compacting 1@1 + 1@2 files
+2024/09/11-12:39:51.772 11cd5 Generated table #462@1: 34 keys, 10101 bytes
+2024/09/11-12:39:51.773 11cd5 Compacted 1@1 + 1@2 files => 10101 bytes
+2024/09/11-12:39:51.853 11cd5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:39:51.855 11cd5 Delete type=2 #459
+2024/09/11-12:39:51.855 11cd5 Delete type=2 #461
+2024/09/11-12:43:43.662 11cd4 Level-0 table #464: started
+2024/09/11-12:43:43.778 11cd4 Level-0 table #464: 1591251 bytes OK
+2024/09/11-12:43:43.904 11cd4 Delete type=0 #460
+2024/09/11-12:44:22.663 11ce5 Compacting 1@1 + 1@2 files
+2024/09/11-12:44:22.748 11ce5 Generated table #465@1: 30 keys, 8108 bytes
+2024/09/11-12:44:22.767 11ce5 Compacted 1@1 + 1@2 files => 8108 bytes
+2024/09/11-12:44:22.840 11ce5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:44:22.841 11ce5 Delete type=2 #462
+2024/09/11-12:44:22.841 11ce5 Delete type=2 #464
+2024/09/11-12:48:16.663 11cd5 Level-0 table #467: started
+2024/09/11-12:48:16.886 11cd5 Level-0 table #467: 1617030 bytes OK
+2024/09/11-12:48:16.950 11cd5 Delete type=0 #463
+2024/09/11-12:49:08.698 11cd5 Compacting 1@1 + 1@2 files
+2024/09/11-12:49:08.782 11cd5 Generated table #468@1: 34 keys, 9787 bytes
+2024/09/11-12:49:08.782 11cd5 Compacted 1@1 + 1@2 files => 9787 bytes
+2024/09/11-12:49:08.843 11cd5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:49:08.844 11cd5 Delete type=2 #465
+2024/09/11-12:49:08.845 11cd5 Delete type=2 #467
+2024/09/11-12:52:51.511 11ce5 Level-0 table #470: started
+2024/09/11-12:52:51.665 11ce5 Level-0 table #470: 1588583 bytes OK
+2024/09/11-12:52:51.751 11ce5 Delete type=0 #466
+2024/09/11-12:53:40.683 11cd4 Compacting 1@1 + 1@2 files
+2024/09/11-12:53:40.784 11cd4 Generated table #471@1: 34 keys, 10104 bytes
+2024/09/11-12:53:40.785 11cd4 Compacted 1@1 + 1@2 files => 10104 bytes
+2024/09/11-12:53:40.855 11cd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:53:40.857 11cd4 Delete type=2 #468
+2024/09/11-12:53:40.857 11cd4 Delete type=2 #470
+2024/09/11-12:57:24.653 11cd5 Level-0 table #473: started
+2024/09/11-12:57:24.786 11cd5 Level-0 table #473: 1610250 bytes OK
+2024/09/11-12:57:24.861 11cd5 Delete type=0 #469
+2024/09/11-12:58:02.654 11cd4 Compacting 1@1 + 1@2 files
+2024/09/11-12:58:02.833 11cd4 Generated table #474@1: 34 keys, 10100 bytes
+2024/09/11-12:58:02.833 11cd4 Compacted 1@1 + 1@2 files => 10100 bytes
+2024/09/11-12:58:02.894 11cd4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/11-12:58:02.895 11cd4 Delete type=2 #471
+2024/09/11-12:58:02.895 11cd4 Delete type=2 #473
