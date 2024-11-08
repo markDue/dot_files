@@ -9,6 +9,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 export PATH=/home/marc/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-romkatv-SLASH-zsh-bench:/home/marc/.nix-profile/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/marc/.local/bin
+#export CDPATH="$CDPATH:.:$HOME/:/mnt/storage/"
 
 # User specific environment
 #if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin" ]]; then
@@ -47,3 +48,4 @@ if command -v theme.sh > /dev/null; then
 fi
 
 unset rc
+alias code="$HOME/Desktop/coder/result/bin/code"

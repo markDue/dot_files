@@ -1,0 +1,42 @@
+2024/11/03-19:21:30.793 33a4 Reusing MANIFEST /home/marc/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/11/03-19:21:30.795 33a4 Recovering log #20
+2024/11/03-19:21:32.114 33a4 Reusing old log /home/marc/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000020.log 
+2024/11/03-19:22:15.154 339c Level-0 table #24: started
+2024/11/03-19:22:15.308 339c Level-0 table #24: 4501050 bytes OK
+2024/11/03-19:22:15.351 339c Delete type=0 #20
+2024/11/03-19:23:13.034 339b Level-0 table #26: started
+2024/11/03-19:23:13.250 339b Level-0 table #26: 4170373 bytes OK
+2024/11/03-19:23:13.314 339b Delete type=0 #23
+2024/11/03-19:24:29.223 339b Level-0 table #28: started
+2024/11/03-19:24:29.402 339b Level-0 table #28: 6653333 bytes OK
+2024/11/03-19:24:29.467 339b Delete type=0 #25
+2024/11/03-19:24:29.472 339b Compacting 4@0 + 3@1 files
+2024/11/03-19:24:29.585 339b Generated table #29@0: 6 keys, 2424735 bytes
+2024/11/03-19:24:29.708 339b Generated table #30@0: 8 keys, 2725561 bytes
+2024/11/03-19:24:29.809 339b Generated table #31@0: 5 keys, 2677797 bytes
+2024/11/03-19:24:30.002 339b Generated table #32@0: 2 keys, 4559003 bytes
+2024/11/03-19:24:30.074 339b Generated table #33@0: 8 keys, 1110582 bytes
+2024/11/03-19:24:30.074 339b Compacted 4@0 + 3@1 files => 13497678 bytes
+2024/11/03-19:24:30.135 339b compacted to: files[ 0 5 1 0 0 0 0 ]
+2024/11/03-19:24:30.136 339b Delete type=2 #17
+2024/11/03-19:24:30.137 339b Delete type=2 #18
+2024/11/03-19:24:30.137 339b Delete type=2 #19
+2024/11/03-19:24:30.137 339b Delete type=2 #21
+2024/11/03-19:24:30.137 339b Delete type=2 #24
+2024/11/03-19:24:30.137 339b Delete type=2 #26
+2024/11/03-19:24:30.137 339b Delete type=2 #28
+2024/11/03-19:24:30.152 339b Expanding@1 1+1 (2424735+4421558 bytes) to 5+1 (13497678+4421558 bytes)
+2024/11/03-19:24:30.153 339b Compacting 5@1 + 1@2 files
+2024/11/03-19:24:30.247 339b Generated table #34@1: 6 keys, 2424735 bytes
+2024/11/03-19:24:30.358 339b Generated table #35@1: 8 keys, 2725561 bytes
+2024/11/03-19:24:30.470 339b Generated table #36@1: 6 keys, 2767303 bytes
+2024/11/03-19:24:30.643 339b Generated table #37@1: 2 keys, 4559003 bytes
+2024/11/03-19:24:30.715 339b Generated table #38@1: 15 keys, 1112551 bytes
+2024/11/03-19:24:30.715 339b Compacted 5@1 + 1@2 files => 13589153 bytes
+2024/11/03-19:24:30.775 339b compacted to: files[ 0 0 5 0 0 0 0 ]
+2024/11/03-19:24:30.777 339b Delete type=2 #5
+2024/11/03-19:24:30.777 339b Delete type=2 #29
+2024/11/03-19:24:30.777 339b Delete type=2 #30
+2024/11/03-19:24:30.778 339b Delete type=2 #31
+2024/11/03-19:24:30.778 339b Delete type=2 #32
+2024/11/03-19:24:30.778 339b Delete type=2 #33

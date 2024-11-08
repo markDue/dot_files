@@ -228,13 +228,14 @@ bindsym $mod+r mode "resize"
 ####################################
 
 focus_follows_mouse no
-#font CodeNewRomanNerdFontMono 11px 
+font IosevkaNerdFontMono 13.5px 
 #font CaskaydiaMono  13px
 #titlebar_border_thickness 2
 titlebar_padding 2
-hide_edge_borders none
+hide_edge_borders none #smart
 
 for_window [title="Variety"] floating enable
+for_window [title="Dbeaver"] floating enable
 for_window [title="super-productivity"] floating enable
 
 exec_always {
@@ -243,7 +244,7 @@ exec_always {
     nm-applet;
     #joplin-desktop ;
     "/usr/libexec/kf6/polkit-kde-authentication-agent-1" ;
-    mako ;
+    dunst ;
 #    kanshi ;
     #pkill kanshi; kanshi;
     #exec polkit-gnome 
@@ -278,7 +279,7 @@ bar {
 	#tray_bindsym button[1-9]|click ContextMenu|
   #tray_bindsym BTN_RIGHT ContextMenu 
   #tray_bindcode 1 ContextMenu
-  icon_theme Papirus-Light
+  #icon_theme Papirus-Light
   #colors {
   #  background #dadada
   #  statusline #333333

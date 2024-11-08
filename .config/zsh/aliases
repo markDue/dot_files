@@ -31,3 +31,6 @@ alias ls-dotfiles="git-dotfiles ls-tree --full-tree --name-only -r HEAD"
 alias wgetWeb="wget --mirror --page-requisites --convert-link --no-clobber --no-parent --domains "
 alias stow-dotfiles="stow -d /mnt/storage/dotfiles/ -t /home/marc/ ."
 alias sync-nixapps="rsync -avu --delete /home/marc/.nix-profile/share/applications/ /home/marc/.local/share/applications/"
+
+#__tmux
+alias tmxk="tmux kill-session -a"

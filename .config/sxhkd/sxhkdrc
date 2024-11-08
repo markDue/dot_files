@@ -13,7 +13,7 @@ super + Return
 	/bin/rofi -show drun -sidebar-mode
 
 # thunar file manager
-super + shift + Return
+alt + shift + Return
 	thunar
 
 # make sxhkd reload its configuration files:

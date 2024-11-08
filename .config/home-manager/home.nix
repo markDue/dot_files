@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, second, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -20,7 +20,7 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  imports = [ ./home-files/packages.nix ./home-files/dotfiles.nix ];
+  imports = [ ./packages.nix  ./dotfiles.nix ];
 
   #gtk.enable = true;
   #gtk.cursorTheme.package = pkgs.bibata-cursors;

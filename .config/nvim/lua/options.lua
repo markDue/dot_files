@@ -17,10 +17,10 @@ set.shiftwidth = 2
 set.expandtab = true
 set.autoindent = true
 set.smartindent = true
-set.laststatus = 0
+--set.laststatus = 0
 
 set.background = "dark"
-vim.cmd.colorscheme("onedark_vivid")
+vim.cmd.colorscheme("default")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", {	bg = "none" })
 vim.g.one_nvim_transparent_bg = true

@@ -6,10 +6,11 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "river/tags"],
-    "modules-center": [],
+    "modules-center": ["sway/scratchpad", "mpd"],
     "modules-right": ["tray", "pulseaudio", "keyboard-state", "sway/language", "clock"],
+
     // Modules configuration
-    // },
+
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -36,8 +37,13 @@
     },
     "clock": {
         // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "timezone": "Africa/Cairo",
+        //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+
+        "tooltip": false,
+        "interval": 1,
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%Y-%m-%d %a %I:%M:%S %p}"
     },
     
    }

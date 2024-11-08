@@ -3,21 +3,29 @@
 	"editor.codeView": true,
 	"locale": "en_GB",
 	"theme": 1,
+	"layoutButtonSequence": 1,
+	"newNoteFocus": "title",
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
 	"showTrayIcon": true,
+	"startMinimized": true,
 	"ui.layout": {
 		"key": "root",
 		"children": [
 			{
-				"key": "sideBar",
+				"key": "tempContainer-jG7stdpz1StIEO26CtEzom",
+				"children": [
+					{
+						"key": "noteList",
+						"visible": false
+					},
+					{
+						"key": "sideBar",
+						"visible": false
+					}
+				],
 				"width": 250,
-				"visible": true
-			},
-			{
-				"key": "noteList",
-				"width": 250,
-				"visible": true
+				"visible": false
 			},
 			{
 				"key": "editor",
@@ -27,9 +35,9 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor",
-		"viewer"
+		"editor"
 	],
+	"editor.keyboardMode": "vim",
 	"editor.spellcheckBeta": true,
 	"api.token": "19da7d731871f7ec83d3904c15c07efe352bd3d135637a4eb42bfb56e92e0a1eb3831cc0fd1cbbfd300180832af527f8b5050dbe5675464a27dd990b25cbf72e",
 	"spellChecker.languages": [

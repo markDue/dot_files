@@ -1,4 +1,4 @@
-#files: 967	version: 5.9
+#files: 988	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -128,6 +128,7 @@ _comps=(
 'ansible-pull' '_ansible'
 'ansible-vault' '_ansible'
 'ant' '_ant'
+'antidote' '_antidote'
 'antiword' '_antiword'
 'aodh' '_openstack'
 'aoss' '_precommand'
@@ -465,6 +466,7 @@ _comps=(
 'extractres' '_psutils'
 'fakeroot' '_fakeroot'
 'false' '_nothing'
+'fast-theme' '_fast-theme'
 'fc' '_fc'
 'fc-list' '_xft_fonts'
 'fc-match' '_xft_fonts'
@@ -519,6 +521,7 @@ _comps=(
 'fsh' '_fsh'
 'fstat' '_fstat'
 'ftp' '_hosts'
+'funchelp' '_funchelp'
 'functions' '_typeset'
 'fuser' '_fuser'
 'fusermount' '_fusermount'
@@ -1839,7 +1842,11 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _SUSEconfig __arguments _a2ps _a2utils _aap \
+autoload -Uz _funchelp __antidote_bulk_clone __antidote_bundle_dir __antidote_bundle_name __antidote_bundle_type \
+            __antidote_bundle_zcompile __antidote_collect_input __antidote_del __antidote_filter_defers __antidote_get_cachedir \
+            __antidote_indent __antidote_initfiles __antidote_load_prep __antidote_parse_bundles __antidote_print_path \
+            __antidote_setup __antidote_tourl __antidote_usage __antidote_version _antidote \
+            _SUSEconfig __arguments _a2ps _a2utils _aap \
             _abcde _absolute_command_paths _ack _acpi _acpitool \
             _acroread _adb _add-zle-hook-widget _add-zsh-hook _alias \
             _aliases _all_labels _all_matches _alsa-utils _alternative \
@@ -2032,7 +2039,7 @@ autoload -Uz _SUSEconfig __arguments _a2ps _a2utils _aap \
             _zftp _zip _zle _zlogin _zmodload \
             _zmv _zoneadm _zones _zparseopts _zpty \
             _zsh _zsh-mime-handler _zsocket _zstyle _ztodo \
-            _zypper
+            _zypper _fast-theme
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs

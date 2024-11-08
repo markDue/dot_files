@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     /* font-family: "FantasqueSansMNerdFont" ,"Noto Sans" ,FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
-    font-family: monospace, sans-serif;
+    font-family: "Iosevka Nerd Font", cantarell, monospace, sans-serif;
     font-size: 12;
     font-weight: bold;
     padding: 0px;
@@ -11,11 +11,11 @@
 /* CUSTOMIZATION */
 
 window#waybar {
-    background-color: #BEBEBE ;
     background-color: #F7E7DC;
+    background-color: #F5F5F5;
     border-bottom: 0px solid #F7E7DC;
     color: #333333;
-    transition-property: background-color;
+    /*transition-property: background-color;*/
     transition-duration: .5s;
 
 }
@@ -25,6 +25,7 @@ window#waybar {
 #network,
 #pulseaudio,
 #keyboard-state,
+#language,
 /*#taskbar button.active,
 #taskbar button.minimized,
 #taskbar button.maximized,
@@ -33,11 +34,12 @@ window#waybar {
 #taskbar,*/
 #tray {
     font-weight: bold;
-    background-color: #F5F5F5;
+    background-color: #285577;
+    background-color: #F5F5F5 ;
     color: #405D72;
-    color: #333333;
+    color: #285577;
     margin: 0px;
-    padding: 0px 8px;
+    padding: 0px 5px;
 }
 
 #tags button,

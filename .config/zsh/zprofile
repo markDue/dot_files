@@ -19,6 +19,7 @@ _wbar="$HOME/.config/waybar"
 _localBin="$HOME/.local/bin/" 
 _tmux="$HOME/.config/tmux/"
 _helix="$HOME/.config/helix/"
+_xmonad="$HOME/.config/xmonad/"
 
 #__ common window managers
 _rvwc="$HOME/.config/river/init"
@@ -28,6 +29,7 @@ _swwc="$HOME/.config/sway/config"
 _wfwc="$HOME/.config/wayfire.ini"
 _scwm="$HOME/.config/spectrwm/spectrwm.conf"
 _obwm="$HOME/.config/openbox/rc.xml"
+_xmd="$HOME/.config/xmonad/xmonad.hs"
 
 #__ common files and tools
 _tmx="$HOME/.config/tmux/tmux.conf"

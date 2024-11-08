@@ -2,8 +2,16 @@
 require("options")
 
 ---
---require('nvim-highlight-colors').setup {}
+vim.opt.termguicolors = true
+require('nvim-highlight-colors').setup({})
+--require("cmp").setup({
+--        formatting = {
+--                format = require("nvim-highlight-colors").format
+--        }
+--})
+
 require('Comment').setup ()
+--require'lspconfig'.pyright.setup{}
 require("mason").setup()
 --require('lualine').setup{ options = {    
 --    icons_enabled = false,
