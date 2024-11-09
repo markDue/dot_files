@@ -1,187 +1,221 @@
-INFO: 2024-11-07 21:46:40,746: main() 'Using profile folder /home/marc/.config/variety/'
-INFO: 2024-11-07 21:46:40,752: perform_upgrade() 'Last run version was 0.8.12 or earlier, current version is 0.8.12'
-INFO: 2024-11-07 21:46:40,888: process_command() 'Received command: []'
-INFO: 2024-11-07 21:46:40,891: start() 'Using data_path /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/share/variety'
-INFO: 2024-11-07 21:46:40,892: load() 'Jumble loading'
-INFO: 2024-11-07 21:46:40,892: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/__init__.py'
-INFO: 2024-11-07 21:46:40,892: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
-INFO: 2024-11-07 21:46:40,893: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2024-11-07 21:46:40,893: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
-INFO: 2024-11-07 21:46:40,893: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2024-11-07 21:46:40,893: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
-INFO: 2024-11-07 21:46:40,895: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2024-11-07 21:46:40,895: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/__init__.py'
-INFO: 2024-11-07 21:46:40,895: _walk_modules() 'Jumble loading module in APODDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
-INFO: 2024-11-07 21:46:40,896: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,896: _walk_modules() 'Jumble loading module in ArtStationDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
-INFO: 2024-11-07 21:46:40,897: _walk_modules() 'Jumble loading module in ArtStationSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
-INFO: 2024-11-07 21:46:40,899: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,899: _walk_modules() 'Jumble loading module in BingDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
-INFO: 2024-11-07 21:46:40,900: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,900: _walk_modules() 'Jumble loading module in EarthviewDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
-INFO: 2024-11-07 21:46:40,901: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,901: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
-INFO: 2024-11-07 21:46:40,903: _walk_modules() 'Jumble loading module in MediaRSSSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
-INFO: 2024-11-07 21:46:40,904: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,904: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
-INFO: 2024-11-07 21:46:40,905: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,905: _walk_modules() 'Jumble loading module in RedditDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
-INFO: 2024-11-07 21:46:40,907: _walk_modules() 'Jumble loading module in RedditSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
-INFO: 2024-11-07 21:46:40,909: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,910: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
-INFO: 2024-11-07 21:46:40,914: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,914: _walk_modules() 'Jumble loading module in UnsplashDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
-INFO: 2024-11-07 21:46:40,914: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,915: _walk_modules() 'Jumble loading module in WallhavenDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
-INFO: 2024-11-07 21:46:40,917: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
-INFO: 2024-11-07 21:46:40,918: _walk_modules() 'Jumble loading module in WallhavenSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
-INFO: 2024-11-07 21:46:40,920: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,920: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/__init__.py'
-INFO: 2024-11-07 21:46:40,921: _walk_modules() 'Jumble loading module in FortuneSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
-INFO: 2024-11-07 21:46:40,923: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,923: _walk_modules() 'Jumble loading module in GoodreadsSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
-INFO: 2024-11-07 21:46:40,987: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,987: _walk_modules() 'Jumble loading module in LocalFilesSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
-INFO: 2024-11-07 21:46:40,989: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,989: _walk_modules() 'Jumble loading module in QuotationsPageSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
-INFO: 2024-11-07 21:46:40,991: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,991: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
-INFO: 2024-11-07 21:46:40,992: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
-INFO: 2024-11-07 21:46:40,992: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/__init__.py'
-INFO: 2024-11-07 21:46:41,052: reload_config() 'Creating new downloader for type unsplash, location High-resolution photos from Unsplash.com'
-INFO: 2024-11-07 21:46:41,081: log_options() 'Loaded options:'
-INFO: 2024-11-07 21:46:41,081: log_options() 'change_enabled = False'
-INFO: 2024-11-07 21:46:41,082: log_options() 'change_interval = 300'
-INFO: 2024-11-07 21:46:41,082: log_options() 'change_on_start = False'
-INFO: 2024-11-07 21:46:41,082: log_options() 'clipboard_enabled = False'
-INFO: 2024-11-07 21:46:41,082: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
-INFO: 2024-11-07 21:46:41,082: log_options() 'clipboard_use_whitelist = True'
-INFO: 2024-11-07 21:46:41,082: log_options() 'clock_date_font = Serif 30'
-INFO: 2024-11-07 21:46:41,082: log_options() 'clock_enabled = False'
-INFO: 2024-11-07 21:46:41,082: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
-INFO: 2024-11-07 21:46:41,083: log_options() 'clock_font = Serif 70'
-INFO: 2024-11-07 21:46:41,083: log_options() 'configfile = /home/marc/.config/variety/variety.conf'
-INFO: 2024-11-07 21:46:41,083: log_options() 'copyto_enabled = True'
-INFO: 2024-11-07 21:46:41,083: log_options() 'copyto_folder = Default'
-INFO: 2024-11-07 21:46:41,083: log_options() 'desired_color = [160, 160, 160]'
-INFO: 2024-11-07 21:46:41,083: log_options() 'desired_color_enabled = False'
-INFO: 2024-11-07 21:46:41,083: log_options() 'download_folder = /home/marc/.config/variety/Downloaded'
-INFO: 2024-11-07 21:46:41,083: log_options() 'download_preference_ratio = 0.9'
-INFO: 2024-11-07 21:46:41,083: log_options() 'favorites_folder = /home/marc/.config/variety/Favorites'
-INFO: 2024-11-07 21:46:41,083: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
-INFO: 2024-11-07 21:46:41,084: log_options() 'fetched_folder = /home/marc/.config/variety/Fetched'
-INFO: 2024-11-07 21:46:41,084: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
-INFO: 2024-11-07 21:46:41,084: log_options() 'get_wallpaper_script = /home/marc/.config/variety/scripts/get_wallpaper'
-INFO: 2024-11-07 21:46:41,084: log_options() 'icon = Dark'
-INFO: 2024-11-07 21:46:41,084: log_options() 'internet_enabled = True'
-INFO: 2024-11-07 21:46:41,084: log_options() 'lightness_enabled = False'
-INFO: 2024-11-07 21:46:41,084: log_options() 'lightness_mode = 0'
-INFO: 2024-11-07 21:46:41,084: log_options() 'min_rating = 4'
-INFO: 2024-11-07 21:46:41,084: log_options() 'min_rating_enabled = False'
-INFO: 2024-11-07 21:46:41,085: log_options() 'min_size = 80'
-INFO: 2024-11-07 21:46:41,085: log_options() 'min_size_enabled = False'
-INFO: 2024-11-07 21:46:41,085: log_options() 'quota_enabled = True'
-INFO: 2024-11-07 21:46:41,085: log_options() 'quota_size = 1000'
-INFO: 2024-11-07 21:46:41,085: log_options() 'quotes_authors = '
-INFO: 2024-11-07 21:46:41,085: log_options() 'quotes_bg_color = [80, 80, 80]'
-INFO: 2024-11-07 21:46:41,085: log_options() 'quotes_bg_opacity = 55'
-INFO: 2024-11-07 21:46:41,085: log_options() 'quotes_change_enabled = False'
-INFO: 2024-11-07 21:46:41,085: log_options() 'quotes_change_interval = 300'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_enabled = False'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_favorites_file = /home/marc/.config/variety/favorite_quotes.txt'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_font = Serif 30'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_hpos = 100'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_max_length = 250'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_tags = '
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_text_color = [255, 255, 255]'
-INFO: 2024-11-07 21:46:41,086: log_options() 'quotes_text_shadow = False'
-INFO: 2024-11-07 21:46:41,087: log_options() 'quotes_vpos = 40'
-INFO: 2024-11-07 21:46:41,087: log_options() 'quotes_width = 70'
-INFO: 2024-11-07 21:46:41,087: log_options() 'safe_mode = False'
-INFO: 2024-11-07 21:46:41,087: log_options() 'set_wallpaper_script = /home/marc/.config/variety/scripts/set_wallpaper'
-INFO: 2024-11-07 21:46:41,087: log_options() 'slideshow_custom_enabled = False'
-INFO: 2024-11-07 21:46:41,087: log_options() 'slideshow_custom_folder = /home/marc/Pictures'
-INFO: 2024-11-07 21:46:41,087: log_options() 'slideshow_downloads_enabled = False'
-INFO: 2024-11-07 21:46:41,087: log_options() 'slideshow_fade = 0.4'
-INFO: 2024-11-07 21:46:41,087: log_options() 'slideshow_favorites_enabled = True'
-INFO: 2024-11-07 21:46:41,087: log_options() 'slideshow_mode = Fullscreen'
-INFO: 2024-11-07 21:46:41,088: log_options() 'slideshow_monitor = All'
-INFO: 2024-11-07 21:46:41,088: log_options() 'slideshow_pan = 0.05'
-INFO: 2024-11-07 21:46:41,088: log_options() 'slideshow_seconds = 6.0'
-INFO: 2024-11-07 21:46:41,088: log_options() 'slideshow_sort_order = Random'
-INFO: 2024-11-07 21:46:41,088: log_options() 'slideshow_sources_enabled = True'
-INFO: 2024-11-07 21:46:41,088: log_options() 'slideshow_zoom = 0.2'
-INFO: 2024-11-07 21:46:41,088: log_options() 'smart_enabled = False'
-INFO: 2024-11-07 21:46:41,088: log_options() 'smart_notice_shown = False'
-INFO: 2024-11-07 21:46:41,088: log_options() 'smart_register_shown = False'
-INFO: 2024-11-07 21:46:41,088: log_options() 'sources = [[False, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [True, 'unsplash', 'High-resolution photos from Unsplash.com'], [False, 'folder', '/mnt/storage/pictures/celebrities'], [False, 'folder', '/mnt/storage/pictures'], [False, 'folder', '/mnt/storage/pictures/linux'], [False, 'folder', '/mnt/storage/pictures/new-pool'], [False, 'folder', '/mnt/storage/pictures/solid-colors'], [False, 'folder', '/mnt/storage/pictures/cities-towns'], [False, 'folder', '/mnt/storage/pictures/blue-sea'], [True, 'folder', '/mnt/storage/pictures/shows-broadcasts'], [True, 'folder', '/home/marc/Downloads'], [True, 'folder', '/mnt/storage/pictures/anime'], [True, 'folder', '/mnt/storage/pictures/kde-images'], [True, 'folder', '/mnt/storage/pictures/nature'], [True, 'folder', '/mnt/storage/documents/websites/makc wallpapers/wallpapers/art']]'
-INFO: 2024-11-07 21:46:41,089: log_options() 'stats_enabled = True'
-INFO: 2024-11-07 21:46:41,089: log_options() 'stats_notice_shown = False'
-INFO: 2024-11-07 21:46:41,089: log_options() 'sync_enabled = True'
-INFO: 2024-11-07 21:46:41,089: log_options() 'use_landscape_enabled = True'
-INFO: 2024-11-07 21:46:41,089: log_options() 'wallhaven_api_key = '
-INFO: 2024-11-07 21:46:41,089: log_options() 'wallpaper_auto_rotate = False'
-INFO: 2024-11-07 21:46:41,089: log_options() 'wallpaper_display_mode = os'
-INFO: 2024-11-07 21:46:41,089: reload_config() 'No need to clear prepared queue'
-INFO: 2024-11-07 21:46:41,089: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 21:46:41,091: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
-INFO: 2024-11-07 21:46:41,091: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
-INFO: 2024-11-07 21:46:41,091: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 21:46:41,092: regular_change_thread() 'regular_change thread running'
-INFO: 2024-11-07 21:46:41,092: regular_change_thread() 'regular_change: waiting till user resumes'
-INFO: 2024-11-07 21:46:41,093: prepare_thread() 'Prepare thread running'
-INFO: 2024-11-07 21:46:41,093: prepare_thread() 'Prepared buffer contains 0 images'
-INFO: 2024-11-07 21:46:41,093: prepare_thread() 'Preparing some images'
-INFO: 2024-11-07 21:46:41,097: update_indicator_icon() 'Creating indicator'
-INFO: 2024-11-07 21:46:41,191: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/325519.jpg, time: 1731008801.1911294'
-WARNING: 2024-11-07 21:46:41,292: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
-INFO: 2024-11-07 21:46:41,297: create_indicator() 'indicator backend: AyatanaAppIndicator3'
-INFO: 2024-11-07 21:46:41,333: set_from_theme_icon() 'Showing indicator icon variety-indicator-dark from GTK theme'
-INFO: 2024-11-07 21:46:41,336: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 21:46:41,368: list_files() 'More than 1 files in the folders, stop listing'
-WARNING: 2024-11-07 21:46:41,688: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/3000x2000.png'
-WARNING: 2024-11-07 21:46:41,807: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images/1152x720.png'
-WARNING: 2024-11-07 21:46:41,862: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/1440x1080.png'
-WARNING: 2024-11-07 21:46:41,959: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/640x480.png'
-WARNING: 2024-11-07 21:46:41,960: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/1920x1200.png'
-WARNING: 2024-11-07 21:46:42,098: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/1440x1080.png'
-WARNING: 2024-11-07 21:46:42,098: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/2304x1440.png'
-WARNING: 2024-11-07 21:46:42,099: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/1280x1024.png'
-WARNING: 2024-11-07 21:46:42,099: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images/2160x1440.png'
-WARNING: 2024-11-07 21:46:42,099: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/1280x1024.png'
-WARNING: 2024-11-07 21:46:42,175: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/1152x864.png'
-WARNING: 2024-11-07 21:46:42,247: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/2960x1440.png'
-WARNING: 2024-11-07 21:46:42,247: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/2560x1440.png'
-WARNING: 2024-11-07 21:46:42,247: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/1152x864.png'
-WARNING: 2024-11-07 21:46:42,287: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/1280x768.png'
-WARNING: 2024-11-07 21:46:42,330: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/1280x720.png'
-WARNING: 2024-11-07 21:46:42,353: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/1440x1080.png'
-WARNING: 2024-11-07 21:46:42,353: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/1366x768.png'
-WARNING: 2024-11-07 21:46:42,395: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/1600x1280.png'
-WARNING: 2024-11-07 21:46:42,419: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/1920x1200.png'
-INFO: 2024-11-07 21:46:42,447: reload() 'Reloading preferences dialog'
-WARNING: 2024-11-07 21:46:42,537: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/1920x1200.png'
-WARNING: 2024-11-07 21:46:42,537: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/2560x1440.png'
-WARNING: 2024-11-07 21:46:42,588: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/1280x768.png'
-WARNING: 2024-11-07 21:46:42,589: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/1024x768.png'
-INFO: 2024-11-07 21:46:42,634: prepare_thread() 'After search prepared buffer contains 74 images'
-INFO: 2024-11-07 21:46:44,635: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-11-07 21:47:01,095: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
-ERROR: 2024-11-07 21:47:04,823: server_options_thread() 'Could not fetch Variety serverside options'
+INFO: 2024-11-09 13:25:16,240: main() 'Using profile folder /home/marc/.config/variety/'
+INFO: 2024-11-09 13:25:16,685: perform_upgrade() 'Last run version was 0.8.12 or earlier, current version is 0.8.12'
+INFO: 2024-11-09 13:25:16,822: process_command() 'Received command: []'
+INFO: 2024-11-09 13:25:16,825: start() 'Using data_path /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/share/variety'
+INFO: 2024-11-09 13:25:16,825: load() 'Jumble loading'
+INFO: 2024-11-09 13:25:16,825: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2024-11-09 13:25:16,826: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
+INFO: 2024-11-09 13:25:16,827: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2024-11-09 13:25:16,827: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
+INFO: 2024-11-09 13:25:16,827: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2024-11-09 13:25:16,828: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
+INFO: 2024-11-09 13:25:16,829: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2024-11-09 13:25:16,829: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/__init__.py'
+INFO: 2024-11-09 13:25:16,830: _walk_modules() 'Jumble loading module in APODDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2024-11-09 13:25:16,831: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,831: _walk_modules() 'Jumble loading module in ArtStationDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
+INFO: 2024-11-09 13:25:16,832: _walk_modules() 'Jumble loading module in ArtStationSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
+INFO: 2024-11-09 13:25:16,834: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,834: _walk_modules() 'Jumble loading module in BingDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2024-11-09 13:25:16,835: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,836: _walk_modules() 'Jumble loading module in EarthviewDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2024-11-09 13:25:16,837: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,837: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2024-11-09 13:25:16,838: _walk_modules() 'Jumble loading module in MediaRSSSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2024-11-09 13:25:16,839: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,839: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
+INFO: 2024-11-09 13:25:16,840: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,840: _walk_modules() 'Jumble loading module in RedditDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2024-11-09 13:25:16,841: _walk_modules() 'Jumble loading module in RedditSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2024-11-09 13:25:16,842: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,842: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2024-11-09 13:25:16,846: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,847: _walk_modules() 'Jumble loading module in UnsplashDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2024-11-09 13:25:16,847: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,847: _walk_modules() 'Jumble loading module in WallhavenDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2024-11-09 13:25:16,849: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
+INFO: 2024-11-09 13:25:16,850: _walk_modules() 'Jumble loading module in WallhavenSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2024-11-09 13:25:16,851: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,851: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2024-11-09 13:25:16,851: _walk_modules() 'Jumble loading module in FortuneSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2024-11-09 13:25:16,853: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,853: _walk_modules() 'Jumble loading module in GoodreadsSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2024-11-09 13:25:16,924: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,924: _walk_modules() 'Jumble loading module in LocalFilesSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2024-11-09 13:25:16,925: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,925: _walk_modules() 'Jumble loading module in QuotationsPageSource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2024-11-09 13:25:16,927: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,927: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2024-11-09 13:25:16,928: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2024-11-09 13:25:16,928: _walk_modules() 'Jumble loading module in __init__ from /nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2024-11-09 13:25:17,321: reload_config() 'Creating new downloader for type unsplash, location High-resolution photos from Unsplash.com'
+INFO: 2024-11-09 13:25:17,394: log_options() 'Loaded options:'
+INFO: 2024-11-09 13:25:17,395: log_options() 'change_enabled = False'
+INFO: 2024-11-09 13:25:17,395: log_options() 'change_interval = 300'
+INFO: 2024-11-09 13:25:17,395: log_options() 'change_on_start = False'
+INFO: 2024-11-09 13:25:17,395: log_options() 'clipboard_enabled = False'
+INFO: 2024-11-09 13:25:17,395: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2024-11-09 13:25:17,395: log_options() 'clipboard_use_whitelist = True'
+INFO: 2024-11-09 13:25:17,396: log_options() 'clock_date_font = Serif 30'
+INFO: 2024-11-09 13:25:17,396: log_options() 'clock_enabled = False'
+INFO: 2024-11-09 13:25:17,396: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2024-11-09 13:25:17,396: log_options() 'clock_font = Serif 70'
+INFO: 2024-11-09 13:25:17,396: log_options() 'configfile = /home/marc/.config/variety/variety.conf'
+INFO: 2024-11-09 13:25:17,396: log_options() 'copyto_enabled = True'
+INFO: 2024-11-09 13:25:17,396: log_options() 'copyto_folder = Default'
+INFO: 2024-11-09 13:25:17,396: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2024-11-09 13:25:17,397: log_options() 'desired_color_enabled = False'
+INFO: 2024-11-09 13:25:17,397: log_options() 'download_folder = /home/marc/.config/variety/Downloaded'
+INFO: 2024-11-09 13:25:17,397: log_options() 'download_preference_ratio = 0.9'
+INFO: 2024-11-09 13:25:17,397: log_options() 'favorites_folder = /home/marc/.config/variety/Favorites'
+INFO: 2024-11-09 13:25:17,397: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2024-11-09 13:25:17,397: log_options() 'fetched_folder = /home/marc/.config/variety/Fetched'
+INFO: 2024-11-09 13:25:17,397: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2024-11-09 13:25:17,397: log_options() 'get_wallpaper_script = /home/marc/.config/variety/scripts/get_wallpaper'
+INFO: 2024-11-09 13:25:17,398: log_options() 'icon = Dark'
+INFO: 2024-11-09 13:25:17,398: log_options() 'internet_enabled = True'
+INFO: 2024-11-09 13:25:17,398: log_options() 'lightness_enabled = False'
+INFO: 2024-11-09 13:25:17,398: log_options() 'lightness_mode = 0'
+INFO: 2024-11-09 13:25:17,398: log_options() 'min_rating = 4'
+INFO: 2024-11-09 13:25:17,398: log_options() 'min_rating_enabled = False'
+INFO: 2024-11-09 13:25:17,398: log_options() 'min_size = 80'
+INFO: 2024-11-09 13:25:17,398: log_options() 'min_size_enabled = False'
+INFO: 2024-11-09 13:25:17,398: log_options() 'quota_enabled = True'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quota_size = 1000'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_authors = '
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_bg_opacity = 55'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_change_enabled = False'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_change_interval = 300'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2024-11-09 13:25:17,399: log_options() 'quotes_enabled = False'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_favorites_file = /home/marc/.config/variety/favorite_quotes.txt'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_font = Serif 30'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_hpos = 100'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_max_length = 250'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_tags = '
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_text_shadow = False'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_vpos = 40'
+INFO: 2024-11-09 13:25:17,400: log_options() 'quotes_width = 70'
+INFO: 2024-11-09 13:25:17,401: log_options() 'safe_mode = False'
+INFO: 2024-11-09 13:25:17,401: log_options() 'set_wallpaper_script = /home/marc/.config/variety/scripts/set_wallpaper'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_custom_enabled = False'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_custom_folder = /home/marc/Pictures'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_fade = 0.4'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2024-11-09 13:25:17,401: log_options() 'slideshow_monitor = All'
+INFO: 2024-11-09 13:25:17,402: log_options() 'slideshow_pan = 0.05'
+INFO: 2024-11-09 13:25:17,402: log_options() 'slideshow_seconds = 6.0'
+INFO: 2024-11-09 13:25:17,402: log_options() 'slideshow_sort_order = Random'
+INFO: 2024-11-09 13:25:17,402: log_options() 'slideshow_sources_enabled = True'
+INFO: 2024-11-09 13:25:17,402: log_options() 'slideshow_zoom = 0.2'
+INFO: 2024-11-09 13:25:17,402: log_options() 'smart_enabled = False'
+INFO: 2024-11-09 13:25:17,402: log_options() 'smart_notice_shown = False'
+INFO: 2024-11-09 13:25:17,402: log_options() 'smart_register_shown = False'
+INFO: 2024-11-09 13:25:17,403: log_options() 'sources = [[False, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [True, 'unsplash', 'High-resolution photos from Unsplash.com'], [False, 'folder', '/mnt/storage/pictures/celebrities'], [False, 'folder', '/mnt/storage/pictures'], [False, 'folder', '/mnt/storage/pictures/linux'], [False, 'folder', '/mnt/storage/pictures/new-pool'], [False, 'folder', '/mnt/storage/pictures/solid-colors'], [False, 'folder', '/mnt/storage/pictures/cities-towns'], [False, 'folder', '/mnt/storage/pictures/blue-sea'], [True, 'folder', '/mnt/storage/pictures/shows-broadcasts'], [True, 'folder', '/home/marc/Downloads'], [True, 'folder', '/mnt/storage/pictures/anime'], [True, 'folder', '/mnt/storage/pictures/kde-images'], [True, 'folder', '/mnt/storage/pictures/nature'], [True, 'folder', '/mnt/storage/documents/websites/makc wallpapers/wallpapers/art']]'
+INFO: 2024-11-09 13:25:17,403: log_options() 'stats_enabled = True'
+INFO: 2024-11-09 13:25:17,403: log_options() 'stats_notice_shown = False'
+INFO: 2024-11-09 13:25:17,403: log_options() 'sync_enabled = True'
+INFO: 2024-11-09 13:25:17,403: log_options() 'use_landscape_enabled = True'
+INFO: 2024-11-09 13:25:17,403: log_options() 'wallhaven_api_key = '
+INFO: 2024-11-09 13:25:17,403: log_options() 'wallpaper_auto_rotate = False'
+INFO: 2024-11-09 13:25:17,403: log_options() 'wallpaper_display_mode = os'
+INFO: 2024-11-09 13:25:17,404: reload_config() 'No need to clear prepared queue'
+INFO: 2024-11-09 13:25:17,404: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/1224294.png'
+INFO: 2024-11-09 13:25:17,405: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2024-11-09 13:25:17,405: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2024-11-09 13:25:17,405: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/1224294.png'
+INFO: 2024-11-09 13:25:17,406: regular_change_thread() 'regular_change thread running'
+INFO: 2024-11-09 13:25:17,406: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2024-11-09 13:25:17,407: prepare_thread() 'Prepare thread running'
+INFO: 2024-11-09 13:25:17,408: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2024-11-09 13:25:17,408: prepare_thread() 'Preparing some images'
+INFO: 2024-11-09 13:25:17,423: update_indicator_icon() 'Creating indicator'
+WARNING: 2024-11-09 13:25:17,492: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2024-11-09 13:25:17,494: create_indicator() 'indicator backend: AyatanaAppIndicator3'
+INFO: 2024-11-09 13:25:17,505: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/1224294.png, time: 1731151517.505515'
+INFO: 2024-11-09 13:25:17,518: set_from_theme_icon() 'Showing indicator icon variety-indicator-dark from GTK theme'
+INFO: 2024-11-09 13:25:17,908: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/1224294.png'
+INFO: 2024-11-09 13:25:17,943: list_files() 'More than 1 files in the folders, stop listing'
+WARNING: 2024-11-09 13:25:18,103: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/2560x1440.png'
+WARNING: 2024-11-09 13:25:18,155: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/800x480.png'
+WARNING: 2024-11-09 13:25:18,155: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/2960x1440.png'
+WARNING: 2024-11-09 13:25:18,212: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images/1200x900.png'
+WARNING: 2024-11-09 13:25:18,268: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/1152x864.png'
+WARNING: 2024-11-09 13:25:18,317: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/3200x1800.png'
+WARNING: 2024-11-09 13:25:18,317: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images/3440x1440.png'
+WARNING: 2024-11-09 13:25:18,369: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/1280x720.png'
+WARNING: 2024-11-09 13:25:18,552: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/1152x720.png'
+WARNING: 2024-11-09 13:25:18,561: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/2048x1536.png'
+WARNING: 2024-11-09 13:25:18,602: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/1280x1024.png'
+WARNING: 2024-11-09 13:25:18,791: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/1280x800.png'
+INFO: 2024-11-09 13:25:18,807: reload() 'Reloading preferences dialog'
+WARNING: 2024-11-09 13:25:18,829: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/3000x2000.png'
+WARNING: 2024-11-09 13:25:18,995: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images_dark/1440x900.png'
+WARNING: 2024-11-09 13:25:18,996: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/2560x1440.png'
+WARNING: 2024-11-09 13:25:19,157: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/2304x1440.png'
+WARNING: 2024-11-09 13:25:19,157: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images/3840x2160.png'
+WARNING: 2024-11-09 13:25:19,185: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/Fedora/contents/images/2304x1440.png'
+WARNING: 2024-11-09 13:25:19,251: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/3440x1440.png'
+WARNING: 2024-11-09 13:25:19,377: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images/3840x2160.png'
+WARNING: 2024-11-09 13:25:19,392: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F39/contents/images_dark/1280x768.png'
+WARNING: 2024-11-09 13:25:19,419: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/3000x2000.png'
+WARNING: 2024-11-09 13:25:19,435: image_ok() 'Error in image_ok for file /mnt/storage/pictures/kde-images/F40/contents/images_dark/3840x2160.png'
+INFO: 2024-11-09 13:25:19,436: prepare_thread() 'After search prepared buffer contains 71 images'
+INFO: 2024-11-09 13:25:21,437: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2024-11-09 13:25:37,410: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2024-11-09 13:25:37,423: server_options_thread() 'Could not fetch Variety serverside options'
 Traceback (most recent call last):
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
-    return complexjson.loads(self.text, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x7ff21038ac00>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 683, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff21038ac00>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
 
 During handling of the above exception, another exception occurred:
 
@@ -191,25 +225,72 @@ Traceback (most recent call last):
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-INFO: 2024-11-07 21:47:34,828: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
-ERROR: 2024-11-07 21:47:36,728: server_options_thread() 'Could not fetch Variety serverside options'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+        ^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 716, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff21038ac00>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
+INFO: 2024-11-09 13:26:07,431: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2024-11-09 13:26:07,437: server_options_thread() 'Could not fetch Variety serverside options'
 Traceback (most recent call last):
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
-    return complexjson.loads(self.text, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x7ff210388080>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 683, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff210388080>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
 
 During handling of the above exception, another exception occurred:
 
@@ -219,25 +300,72 @@ Traceback (most recent call last):
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-INFO: 2024-11-07 21:48:06,732: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
-ERROR: 2024-11-07 21:48:08,651: server_options_thread() 'Could not fetch Variety serverside options'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+        ^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 716, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff210388080>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
+INFO: 2024-11-09 13:26:37,443: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2024-11-09 13:26:37,449: server_options_thread() 'Could not fetch Variety serverside options'
 Traceback (most recent call last):
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
-    return complexjson.loads(self.text, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x7ff21055bbc0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 683, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff21055bbc0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
 
 During handling of the above exception, another exception occurred:
 
@@ -247,25 +375,72 @@ Traceback (most recent call last):
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-INFO: 2024-11-07 21:48:38,655: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
-ERROR: 2024-11-07 21:48:40,460: server_options_thread() 'Could not fetch Variety serverside options'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+        ^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 716, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff21055bbc0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
+INFO: 2024-11-09 13:27:07,455: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2024-11-09 13:27:07,460: server_options_thread() 'Could not fetch Variety serverside options'
 Traceback (most recent call last):
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
-    return complexjson.loads(self.text, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x7ff21055aff0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 683, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff21055aff0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
 
 During handling of the above exception, another exception occurred:
 
@@ -275,25 +450,72 @@ Traceback (most recent call last):
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-INFO: 2024-11-07 21:49:10,463: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
-ERROR: 2024-11-07 21:49:12,811: server_options_thread() 'Could not fetch Variety serverside options'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+        ^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 716, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff21055aff0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
+INFO: 2024-11-09 13:27:37,463: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2024-11-09 13:27:37,469: server_options_thread() 'Could not fetch Variety serverside options'
 Traceback (most recent call last):
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 974, in json
-    return complexjson.loads(self.text, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/json/decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 398, in request
+    self.endheaders()
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connection.py", line 203, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x7ff210388bc0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 683, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/nix/store/iascs8wc0g70ln13rcjbb2hr0gc1kq26-python3.12-urllib3-2.2.2/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff210388bc0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
 
 During handling of the above exception, another exception occurred:
 
@@ -303,141 +525,19 @@ Traceback (most recent call last):
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/models.py", line 978, in json
-    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
-requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-INFO: 2024-11-07 21:50:16,601: process_command() 'Received command: ['--preferences']'
-INFO: 2024-11-07 21:50:16,605: reload() 'Reloading preferences dialog'
-INFO: 2024-11-07 21:50:20,855: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-11-07 21:50:55,019: process_command() 'Received command: ['--preferences']'
-INFO: 2024-11-07 21:50:55,022: reload() 'Reloading preferences dialog'
-INFO: 2024-11-07 21:51:08,431: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-11-07 21:51:08,531: apply() 'Applying preferences'
-INFO: 2024-11-07 21:51:08,554: set_visible() 'Showing indicator icon'
-INFO: 2024-11-07 21:51:08,554: set_from_theme_icon() 'Showing indicator icon variety-indicator-dark from GTK theme'
-INFO: 2024-11-07 21:51:08,605: log_options() 'Loaded options:'
-INFO: 2024-11-07 21:51:08,605: log_options() 'change_enabled = False'
-INFO: 2024-11-07 21:51:08,606: log_options() 'change_interval = 300'
-INFO: 2024-11-07 21:51:08,606: log_options() 'change_on_start = False'
-INFO: 2024-11-07 21:51:08,606: log_options() 'clipboard_enabled = False'
-INFO: 2024-11-07 21:51:08,606: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
-INFO: 2024-11-07 21:51:08,606: log_options() 'clipboard_use_whitelist = True'
-INFO: 2024-11-07 21:51:08,606: log_options() 'clock_date_font = Serif 30'
-INFO: 2024-11-07 21:51:08,606: log_options() 'clock_enabled = False'
-INFO: 2024-11-07 21:51:08,606: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
-INFO: 2024-11-07 21:51:08,607: log_options() 'clock_font = Serif 70'
-INFO: 2024-11-07 21:51:08,607: log_options() 'configfile = /home/marc/.config/variety/variety.conf'
-INFO: 2024-11-07 21:51:08,607: log_options() 'copyto_enabled = True'
-INFO: 2024-11-07 21:51:08,607: log_options() 'copyto_folder = Default'
-INFO: 2024-11-07 21:51:08,607: log_options() 'desired_color = [160, 160, 160]'
-INFO: 2024-11-07 21:51:08,607: log_options() 'desired_color_enabled = False'
-INFO: 2024-11-07 21:51:08,607: log_options() 'download_folder = /home/marc/.config/variety/Downloaded'
-INFO: 2024-11-07 21:51:08,608: log_options() 'download_preference_ratio = 0.9'
-INFO: 2024-11-07 21:51:08,608: log_options() 'favorites_folder = /home/marc/.config/variety/Favorites'
-INFO: 2024-11-07 21:51:08,608: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
-INFO: 2024-11-07 21:51:08,608: log_options() 'fetched_folder = /home/marc/.config/variety/Fetched'
-INFO: 2024-11-07 21:51:08,608: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
-INFO: 2024-11-07 21:51:08,608: log_options() 'get_wallpaper_script = /home/marc/.config/variety/scripts/get_wallpaper'
-INFO: 2024-11-07 21:51:08,608: log_options() 'icon = Dark'
-INFO: 2024-11-07 21:51:08,608: log_options() 'internet_enabled = True'
-INFO: 2024-11-07 21:51:08,609: log_options() 'lightness_enabled = False'
-INFO: 2024-11-07 21:51:08,609: log_options() 'lightness_mode = 0'
-INFO: 2024-11-07 21:51:08,609: log_options() 'min_rating = 4'
-INFO: 2024-11-07 21:51:08,609: log_options() 'min_rating_enabled = False'
-INFO: 2024-11-07 21:51:08,609: log_options() 'min_size = 80'
-INFO: 2024-11-07 21:51:08,609: log_options() 'min_size_enabled = False'
-INFO: 2024-11-07 21:51:08,609: log_options() 'quota_enabled = True'
-INFO: 2024-11-07 21:51:08,609: log_options() 'quota_size = 1000'
-INFO: 2024-11-07 21:51:08,609: log_options() 'quotes_authors = '
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_bg_color = [80, 80, 80]'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_bg_opacity = 55'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_change_enabled = False'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_change_interval = 300'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_enabled = False'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_favorites_file = /home/marc/.config/variety/favorite_quotes.txt'
-INFO: 2024-11-07 21:51:08,610: log_options() 'quotes_font = Serif 30'
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_hpos = 100'
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_max_length = 250'
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_tags = '
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_text_color = [255, 255, 255]'
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_text_shadow = False'
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_vpos = 40'
-INFO: 2024-11-07 21:51:08,611: log_options() 'quotes_width = 70'
-INFO: 2024-11-07 21:51:08,611: log_options() 'safe_mode = False'
-INFO: 2024-11-07 21:51:08,612: log_options() 'set_wallpaper_script = /home/marc/.config/variety/scripts/set_wallpaper'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_custom_enabled = False'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_custom_folder = /home/marc/Pictures'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_downloads_enabled = False'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_fade = 0.4'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_favorites_enabled = True'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_mode = Fullscreen'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_monitor = All'
-INFO: 2024-11-07 21:51:08,612: log_options() 'slideshow_pan = 0.05'
-INFO: 2024-11-07 21:51:08,613: log_options() 'slideshow_seconds = 6.0'
-INFO: 2024-11-07 21:51:08,613: log_options() 'slideshow_sort_order = Random'
-INFO: 2024-11-07 21:51:08,613: log_options() 'slideshow_sources_enabled = True'
-INFO: 2024-11-07 21:51:08,613: log_options() 'slideshow_zoom = 0.2'
-INFO: 2024-11-07 21:51:08,613: log_options() 'smart_enabled = False'
-INFO: 2024-11-07 21:51:08,613: log_options() 'smart_notice_shown = False'
-INFO: 2024-11-07 21:51:08,614: log_options() 'smart_register_shown = False'
-INFO: 2024-11-07 21:51:08,614: log_options() 'sources = [[False, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [True, 'unsplash', 'High-resolution photos from Unsplash.com'], [False, 'folder', '/mnt/storage/pictures/celebrities'], [False, 'folder', '/mnt/storage/pictures'], [False, 'folder', '/mnt/storage/pictures/linux'], [False, 'folder', '/mnt/storage/pictures/new-pool'], [False, 'folder', '/mnt/storage/pictures/solid-colors'], [False, 'folder', '/mnt/storage/pictures/cities-towns'], [False, 'folder', '/mnt/storage/pictures/blue-sea'], [True, 'folder', '/mnt/storage/pictures/shows-broadcasts'], [True, 'folder', '/home/marc/Downloads'], [True, 'folder', '/mnt/storage/pictures/anime'], [True, 'folder', '/mnt/storage/pictures/kde-images'], [True, 'folder', '/mnt/storage/pictures/nature'], [True, 'folder', '/mnt/storage/documents/websites/makc wallpapers/wallpapers/art']]'
-INFO: 2024-11-07 21:51:08,615: log_options() 'stats_enabled = True'
-INFO: 2024-11-07 21:51:08,615: log_options() 'stats_notice_shown = False'
-INFO: 2024-11-07 21:51:08,615: log_options() 'sync_enabled = True'
-INFO: 2024-11-07 21:51:08,615: log_options() 'use_landscape_enabled = True'
-INFO: 2024-11-07 21:51:08,616: log_options() 'wallhaven_api_key = '
-INFO: 2024-11-07 21:51:08,616: log_options() 'wallpaper_auto_rotate = False'
-INFO: 2024-11-07 21:51:08,616: log_options() 'wallpaper_display_mode = os'
-INFO: 2024-11-07 21:51:08,616: reload_config() 'No need to clear prepared queue'
-INFO: 2024-11-07 21:51:08,616: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 21:51:08,647: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 21:51:08,650: prepare_thread() 'Prepared buffer contains 74 images'
-INFO: 2024-11-07 21:51:08,651: regular_change_thread() 'regular_change: waiting till user resumes'
-INFO: 2024-11-07 21:51:08,749: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/325519.jpg, time: 1731009068.7490804'
-INFO: 2024-11-07 21:51:08,890: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 21:51:08,892: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 21:51:10,652: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-11-07 21:51:20,958: process_command() 'Received command: ['--preferences']'
-INFO: 2024-11-07 21:51:20,961: reload() 'Reloading preferences dialog'
-INFO: 2024-11-07 21:51:22,199: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-11-07 22:30:07,563: reload() 'Reloading preferences dialog'
-ERROR: 2024-11-07 22:30:08,172: save_options() 'Missing or bad thumbs_position option in ui.conf'
-Traceback (most recent call last):
-  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/ThumbsManager.py", line 436, in save_options
-    config.write()
-  File "/nix/store/9chm89s5dshzp1y86m34wlhbdm1wm0jg-python3.12-configobj-5.0.8/lib/python3.12/site-packages/configobj/__init__.py", line 2128, in write
-    with open(self.filename, 'wb') as h:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: '/home/marc/.config/variety/ui.conf'
-ERROR: 2024-11-07 22:30:08,187: save_options() 'Missing or bad thumbs_position option in ui.conf'
-Traceback (most recent call last):
-  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/ThumbsManager.py", line 436, in save_options
-    config.write()
-  File "/nix/store/9chm89s5dshzp1y86m34wlhbdm1wm0jg-python3.12-configobj-5.0.8/lib/python3.12/site-packages/configobj/__init__.py", line 2128, in write
-    with open(self.filename, 'wb') as h:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: '/home/marc/.config/variety/ui.conf'
-INFO: 2024-11-07 22:30:13,615: set_wallpaper() 'Calling set_wallpaper with /mnt/storage/pictures/celebrities/340377.jpg'
-INFO: 2024-11-07 22:30:13,617: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/340377.jpg, time: 1731011413.617082'
-INFO: 2024-11-07 22:30:13,720: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/340377.jpg'
-INFO: 2024-11-07 22:30:13,747: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 22:30:40,783: set_wallpaper() 'Calling set_wallpaper with /mnt/storage/pictures/celebrities/1224294.png'
-INFO: 2024-11-07 22:30:40,784: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/1224294.png, time: 1731011440.784229'
-INFO: 2024-11-07 22:30:40,847: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/1224294.png'
-INFO: 2024-11-07 22:30:40,849: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 22:30:42,967: set_wallpaper() 'Calling set_wallpaper with /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 22:30:42,968: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/325519.jpg, time: 1731011442.9683564'
-INFO: 2024-11-07 22:30:43,019: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/325519.jpg'
-INFO: 2024-11-07 22:30:43,022: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 22:30:44,791: set_wallpaper() 'Calling set_wallpaper with /mnt/storage/pictures/celebrities/1224294.png'
-INFO: 2024-11-07 22:30:44,792: do_set_wp() 'Calling do_set_wp with /mnt/storage/pictures/celebrities/1224294.png, time: 1731011444.7922215'
-INFO: 2024-11-07 22:30:44,835: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/1224294.png'
-INFO: 2024-11-07 22:30:44,838: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 22:31:20,103: update_indicator() 'Setting file info to: /mnt/storage/pictures/celebrities/1224294.png'
-INFO: 2024-11-07 22:31:20,106: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-11-07 22:31:20,872: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-11-08 13:31:46,684: process_command() 'Received command: ['--preferences']'
-INFO: 2024-11-08 13:31:46,707: reload() 'Reloading preferences dialog'
-INFO: 2024-11-08 13:31:50,877: trigger_download() 'Triggering download thread to check if download needed and possible'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/97cqh46cyacl1ra71swhg8q32f5rdahx-variety-0.8.12/lib/python3.12/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+        ^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nix/store/v9vlasx9pvm911cxdmd5fqbical5pjx8-python3.12-requests-2.32.3/lib/python3.12/site-packages/requests/adapters.py", line 716, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ff210388bc0>: Failed to resolve 'tiny.cc' ([Errno -3] Temporary failure in name resolution)"))
