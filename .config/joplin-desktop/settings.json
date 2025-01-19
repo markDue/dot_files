@@ -17,15 +17,15 @@
 				"children": [
 					{
 						"key": "noteList",
-						"visible": false
+						"visible": true
 					},
 					{
 						"key": "sideBar",
-						"visible": false
+						"visible": true
 					}
 				],
 				"width": 250,
-				"visible": false
+				"visible": true
 			},
 			{
 				"key": "editor",

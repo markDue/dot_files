@@ -26,8 +26,11 @@
     #(pkgs.nerdfonts.override { fonts = [ "MaterialDesign" ]; })
     #material-symbols font-awesome #nerdfonts
 
+  # nix related_______________________/
+    glibcLocales
+
   # text editors______________________/
-     geany bluefish vscode helix neovim vim emacs
+    zed-editor geany kate bluefish vscode helix neovim vim emacs
     #pkgs.bluefish #pkgs.vscodium #pkgs.texmaker #pkgs.kate #pkgs.emacs 
     #pkgs.cudatext
 
@@ -42,10 +45,10 @@
      herbstluftwm notion
      #qtile awesome openbox  
      i3blocks
-     yazi  ranger  picom dunst  
+     yazi  lf ranger  picom dunst  
      #tofi lf wofi
      imagemagick poppler epub-thumbnailer wkhtmltopdf 
-     #tint2 rofi ffmpegthumbnailer
+     rofi #tint2  ffmpegthumbnailer
 
   # desktop environments & themes______________________/
     #budgie.budgie-desktop
@@ -55,7 +58,7 @@
 
   # shell & CLI______________________/
     #vimPlugins.Vundle-vim wifite2 wev
-    nb wirelesstools linssid reaverwps-t6x wireshark kismet aircrack-ng
+    nb metasploit wirelesstools linssid reaverwps-t6x wireshark kismet aircrack-ng
     glances ripgrep glow fortune hollywood fish zsh neofetch bat cmatrix tmux trashy curl git wget htop fzf hugo
     yt-dlp simple-mtpfs go-mtpfs rsync nodejs gem gemstash ruby jekyll 
     antidote tty-clock
@@ -64,7 +67,7 @@
   # apps______________________/
     #zeroadPackages.zeroad-unwrapped zeroadPackages.zeroad-data
     tor tor-browser  chromium
-    dbeaver-bin zathura
+    alacritty libreoffice-qt6 onlyoffice-desktopeditors dbeaver-bin zathura
     calibre persepolis joplin-desktop anki ticktick networkmanagerapplet super-productivity obsidian 
     thunderbird #joplin-desktop 
     wl-color-picker tauon 
@@ -75,8 +78,12 @@
     syncthing scrcpy 
 	  #alacritty foot chromium librewolf museeks strawberry 
 	  #clementine  fontpreview 
+    wf-recorder
 
-  # games
+  # andriod & Development__________________/
+    whatsapp-for-linux
+    
+  # games___________________________/
     airshipper #zeroadPackages.zeroad-unwrapped 
 
   ]);

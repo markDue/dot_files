@@ -18,15 +18,15 @@ set $back_term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $fileBrowser  thunar
+set $fileBrowser  dolphin
 set $swaylock swaylock -i $log-wallpaper -s fill 
 set $wlogout wlogout
-set $rofi rofi -show drun -sidebar-mode
+set $rofi /usr/bin/rofi -show drun -sidebar-mode
 set $wofi wofi --show drun -I
 set $tofi tofi-drun
 #set $dmenu  dmenu_path | dmenu | xargs swaymsg exec --
 #set $dmenu dmenu_run -nb '#333333' -sb '#ff00f2' -sf '#e2eeea' -p dmenu -fn 'liberation sans'
-set $dmenu dmenu_run -p ' input  ' -fn 'liberation sans'
+set $dmenu dmenu_run -p ' input  ' 
 
 # Start your launcher
   bindsym $mod+Return exec $dmenu
@@ -119,6 +119,10 @@ output "*" {
     bindsym $mod+Down focus down
     bindsym $mod+Up focus up
     bindsym $mod+Right focus right
+    # Focus container
+    bindsym Alt+Shift+Left focus prev 
+    bindsym Alt+Shift+Right focus next 
+
 
     # Move the focused window with the same, but add Shift
     bindsym $mod+Shift+$left move left
@@ -234,9 +238,20 @@ font IosevkaNerdFontMono 13.5px
 titlebar_padding 2
 hide_edge_borders none #smart
 
-for_window [title="Variety"] floating enable
+for_window [title="Variety"] floating enable, border normal, move position bottom
+for_window [title="Variety Images"] floating enable, border normal, move position  0 765
+for_window [title="Variety Recent Downloads"] floating enable, border none, move position  0 765
+for_window [title="Variety History"] floating enable, border none, move position  0 765
+for_window [title="Volume Control"] floating enable, border normal, move position center 
 for_window [title="Dbeaver"] floating enable
 for_window [title="super-productivity"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+#for_window [appid="Dolphin" title="^Copying"] floating enable 
+for_window [title="(?i)(?:copying|deleting|moving)"] floating enable, border normal, move position center
 
 exec_always {
     wl-paste -t text --watch clipman store --no-persist ;

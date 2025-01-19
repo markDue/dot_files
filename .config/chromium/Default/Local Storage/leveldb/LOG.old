@@ -1,3 +1,26 @@
-2024/10/20-14:16:54.802 6 Reusing MANIFEST /home/marc/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2024/10/20-14:16:55.373 6 Recovering log #453
-2024/10/20-14:16:55.909 6 Reusing old log /home/marc/.config/chromium/Default/Local Storage/leveldb/000453.log 
+2024/12/05-20:42:17.076 4 Reusing MANIFEST /home/marc/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/12/05-20:42:17.187 4 Recovering log #471
+2024/12/05-20:42:17.303 4 Reusing old log /home/marc/.config/chromium/Default/Local Storage/leveldb/000471.log 
+2024/12/05-21:05:54.374 5 Level-0 table #475: started
+2024/12/05-21:05:54.473 5 Level-0 table #475: 26755 bytes OK
+2024/12/05-21:05:54.594 5 Delete type=0 #471
+2024/12/05-21:08:44.479 5 Level-0 table #477: started
+2024/12/05-21:08:44.556 5 Level-0 table #477: 13360 bytes OK
+2024/12/05-21:08:44.660 5 Delete type=0 #474
+2024/12/05-21:10:54.417 5 Level-0 table #479: started
+2024/12/05-21:10:54.468 5 Level-0 table #479: 13803 bytes OK
+2024/12/05-21:10:54.582 5 Delete type=0 #476
+2024/12/05-21:10:54.583 5 Compacting 4@0 + 2@1 files
+2024/12/05-21:10:54.834 5 Generated table #480@0: 1156 keys, 2174313 bytes
+2024/12/05-21:10:54.936 5 Generated table #481@0: 817 keys, 318864 bytes
+2024/12/05-21:10:54.936 5 Compacted 4@0 + 2@1 files => 2493177 bytes
+2024/12/05-21:10:55.026 5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/12/05-21:10:55.030 5 Delete type=2 #468
+2024/12/05-21:10:55.030 5 Delete type=2 #469
+2024/12/05-21:10:55.031 5 Delete type=2 #472
+2024/12/05-21:10:55.031 5 Delete type=2 #475
+2024/12/05-21:10:55.031 5 Delete type=2 #477
+2024/12/05-21:10:55.031 5 Delete type=2 #479
+2024/12/05-21:23:34.605 5 Level-0 table #483: started
+2024/12/05-21:23:34.684 5 Level-0 table #483: 12143 bytes OK
+2024/12/05-21:23:34.798 5 Delete type=0 #478

@@ -10,7 +10,11 @@ fi
 
 export PATH=/home/marc/.cache/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-romkatv-SLASH-zsh-bench:/home/marc/.nix-profile/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/marc/.local/bin
 #export CDPATH="$CDPATH:.:$HOME/:/mnt/storage/"
-
+if ! [[ "$CDPATH" =~ ".:$HOME/:/mnt/storage/" ]] then
+  CDPATH=".:$HOME/:/mnt/storage/"
+fi
+export CDPATH
+export LOCALE_ARCHIVE="$(nix profile list | grep glibcLocales | tail -n1 | cut -d ' ' -f4)/lib/locale/locale-archive"
 # User specific environment
 #if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin" ]]; then
 #    PATH="$HOME/.local/bin:$HOME/bin"

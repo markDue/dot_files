@@ -33,9 +33,9 @@ programs.sway.extraOptions = [" --config /home/marc/.config/sway/config "];
 #};
 
 i18n.defaultLocale = "en_US.UTF-8";
-time.timeZone = "Africa/Ciaro";
-#i18n.extraLocaleSettings = {
-#LC_TIME = "de_CH.UTF-8";
-#};
+#time.timeZone = "Africa/Ciaro";
+i18n.extraLocaleSettings = {
+LC_TIME = "en_US.UTF-8";
+};
 
 }

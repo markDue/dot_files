@@ -1,0 +1,26 @@
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[terminal.shell]
+program = "/home/marc/.nix-profile/bin/zsh"
+
+[window]
+dynamic_padding = false
+opacity = 0.9
+
+[window.padding]
+x = 0
+y = 0
+
+[terminal]
+
+[font]
+normal = { family = "ShureTechMono Nerd Font Mono", style = "Bold" }
+bold = { family = "ShureTechMono Nerd Font Mono", style = "Bold" }
+italic = { family = "ShureTechMono Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "ShureTechMono Nerd Font Mono", style = "Bold Italic" }
+size = 11.3

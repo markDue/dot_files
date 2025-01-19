@@ -10127,3 +10127,1290 @@
 2024-11-03 14:41:44: Updating items_normalized from {"updated_time":0,"id":""}
 2024-11-03 14:41:44: SearchEngine: Updated FTS table in 407ms. Inserted: 1. Deleted: 0
 2024-11-03 14:41:55: SearchEngine: Updating FTS table...
+2024-11-09 19:28:33: App: Profile directory: /home/marc/.config/joplin-desktop
+2024-11-09 19:28:33: App: Root profile directory: /home/marc/.config/joplin-desktop
+2024-11-09 19:28:33: Database was open successfully
+2024-11-09 19:28:33: Checking for database schema update...
+2024-11-09 19:28:33: Current database version {"version":47,"table_fields_version":47}
+2024-11-09 19:28:33: Upgrading database from version 47
+2024-11-09 19:28:33: New version: 47. Previously recorded version: 47
+2024-11-09 19:28:33: KeychainService: checking if keychain supported
+2024-11-09 19:28:33: KeychainService: check was already done - skipping. Supported: 0
+2024-11-09 19:28:33: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2024-11-09 19:28:33: handleSyncStartupOperation: Processing operation: 0
+2024-11-09 19:28:33: App: Client ID: 980416d366b4422e93fa4f8a09c61cb2
+2024-11-09 19:28:33: models/Setting: Applying default migrations...
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: ResourceFetcher: Auto-add resources: Mode: always
+2024-11-09 19:28:33: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2024-11-09 19:28:33: ResourceFetcher: Auto-added resources: 0
+2024-11-09 19:28:33: permanentlyDeleteOldData: Items to permanently delete: {"noteIds":[],"folderIds":[]}
+2024-11-09 19:28:33: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2024-11-09 19:28:33: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: app.start: doing regular boot
+2024-11-09 19:28:33: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-09 19:28:33: e2ee/utils: Trying to load 0 master keys...
+2024-11-09 19:28:33: e2ee/utils: Loaded master keys: 0
+2024-11-09 19:28:33: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2024-11-09 19:28:33: PluginService: Loading plugin from /home/marc/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2024-11-09 19:28:34: SpellCheckerServiceDriverNative: Set effective languages to "en-US"
+2024-11-09 19:28:35: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-11-09 19:28:35: Preparing scheduled sync
+2024-11-09 19:28:35: Sync cancelled - no sync target is selected.
+2024-11-09 19:28:35: Updating all notifications...
+2024-11-09 19:28:35: Garbage collecting alarms...
+2024-11-09 19:28:36: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2024-11-09 19:28:36: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 657ms)
+2024-11-09 19:28:36: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-11-09 19:28:37: RevisionService: maintenance: Starting...
+2024-11-09 19:28:37: RevisionService: maintenance: Service is enabled
+2024-11-09 19:28:38: RevisionService: collectRevisions: Created revisions for 1 notes
+2024-11-09 19:28:38: RevisionService: maintenance: Done in 563ms
+2024-11-09 19:28:43: SearchEngine: Updating FTS table...
+2024-11-09 19:28:44: Updating items_normalized from {"updated_time":0,"id":""}
+2024-11-09 19:28:44: SearchEngine: Updated FTS table in 567ms. Inserted: 1. Deleted: 0
+2024-11-09 19:29:03: ResourceService::indexNoteResources: Start
+2024-11-09 19:29:04: ResourceService::indexNoteResources: Completed
+2024-11-09 19:29:04: ResourceService::deleteOrphanResources: []
+2024-11-09 19:29:14: SearchEngine: Updating FTS table...
+2024-11-09 19:29:14: Updating items_normalized from {"updated_time":0,"id":""}
+2024-11-09 19:29:14: SearchEngine: Updated FTS table in 7ms. Inserted: 0. Deleted: 0
+2024-11-09 19:33:34: Running background sync on timer...
+2024-11-09 19:33:34: Preparing scheduled sync
+2024-11-09 19:33:34: Sync cancelled - no sync target is selected.
+2024-11-09 19:38:34: RevisionService: maintenance: Starting...
+2024-11-09 19:38:34: RevisionService: maintenance: Service is enabled
+2024-11-09 19:38:34: Running background sync on timer...
+2024-11-09 19:38:34: Preparing scheduled sync
+2024-11-09 19:38:34: Sync cancelled - no sync target is selected.
+2024-11-09 19:38:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 19:38:34: RevisionService: maintenance: Done in 151ms
+2024-11-09 19:43:34: Running background sync on timer...
+2024-11-09 19:43:34: Preparing scheduled sync
+2024-11-09 19:43:34: Sync cancelled - no sync target is selected.
+2024-11-09 19:48:34: RevisionService: maintenance: Starting...
+2024-11-09 19:48:34: RevisionService: maintenance: Service is enabled
+2024-11-09 19:48:34: Running background sync on timer...
+2024-11-09 19:48:34: Preparing scheduled sync
+2024-11-09 19:48:34: Sync cancelled - no sync target is selected.
+2024-11-09 19:48:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 19:48:34: RevisionService: maintenance: Done in 148ms
+2024-11-09 19:53:34: Running background sync on timer...
+2024-11-09 19:53:34: Preparing scheduled sync
+2024-11-09 19:53:34: Sync cancelled - no sync target is selected.
+2024-11-09 19:58:34: RevisionService: maintenance: Starting...
+2024-11-09 19:58:34: RevisionService: maintenance: Service is enabled
+2024-11-09 19:58:34: Running background sync on timer...
+2024-11-09 19:58:34: Preparing scheduled sync
+2024-11-09 19:58:34: Sync cancelled - no sync target is selected.
+2024-11-09 19:58:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 19:58:34: RevisionService: maintenance: Done in 330ms
+2024-11-09 20:03:34: Running background sync on timer...
+2024-11-09 20:03:34: Preparing scheduled sync
+2024-11-09 20:03:34: Sync cancelled - no sync target is selected.
+2024-11-09 20:08:34: RevisionService: maintenance: Starting...
+2024-11-09 20:08:34: RevisionService: maintenance: Service is enabled
+2024-11-09 20:08:34: Running background sync on timer...
+2024-11-09 20:08:34: Preparing scheduled sync
+2024-11-09 20:08:34: Sync cancelled - no sync target is selected.
+2024-11-09 20:08:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 20:08:34: RevisionService: maintenance: Done in 338ms
+2024-11-09 20:13:34: Running background sync on timer...
+2024-11-09 20:13:35: Preparing scheduled sync
+2024-11-09 20:13:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:18:34: RevisionService: maintenance: Starting...
+2024-11-09 20:18:34: RevisionService: maintenance: Service is enabled
+2024-11-09 20:18:35: Running background sync on timer...
+2024-11-09 20:18:35: Preparing scheduled sync
+2024-11-09 20:18:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:18:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 20:18:35: RevisionService: maintenance: Done in 660ms
+2024-11-09 20:23:35: Running background sync on timer...
+2024-11-09 20:23:35: Preparing scheduled sync
+2024-11-09 20:23:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:28:34: Garbage collecting alarms...
+2024-11-09 20:28:34: RevisionService: maintenance: Starting...
+2024-11-09 20:28:34: RevisionService: maintenance: Service is enabled
+2024-11-09 20:28:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 20:28:34: RevisionService: maintenance: Done in 112ms
+2024-11-09 20:28:35: Running background sync on timer...
+2024-11-09 20:28:35: Preparing scheduled sync
+2024-11-09 20:28:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:33:35: Running background sync on timer...
+2024-11-09 20:33:35: Preparing scheduled sync
+2024-11-09 20:33:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:38:34: RevisionService: maintenance: Starting...
+2024-11-09 20:38:34: RevisionService: maintenance: Service is enabled
+2024-11-09 20:38:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 20:38:34: RevisionService: maintenance: Done in 119ms
+2024-11-09 20:38:35: Running background sync on timer...
+2024-11-09 20:38:35: Preparing scheduled sync
+2024-11-09 20:38:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:43:35: Running background sync on timer...
+2024-11-09 20:43:35: Preparing scheduled sync
+2024-11-09 20:43:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:48:34: RevisionService: maintenance: Starting...
+2024-11-09 20:48:34: RevisionService: maintenance: Service is enabled
+2024-11-09 20:48:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 20:48:34: RevisionService: maintenance: Done in 105ms
+2024-11-09 20:48:35: Running background sync on timer...
+2024-11-09 20:48:35: Preparing scheduled sync
+2024-11-09 20:48:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:53:35: Running background sync on timer...
+2024-11-09 20:53:35: Preparing scheduled sync
+2024-11-09 20:53:35: Sync cancelled - no sync target is selected.
+2024-11-09 20:58:34: RevisionService: maintenance: Starting...
+2024-11-09 20:58:34: RevisionService: maintenance: Service is enabled
+2024-11-09 20:58:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 20:58:34: RevisionService: maintenance: Done in 104ms
+2024-11-09 20:58:35: Running background sync on timer...
+2024-11-09 20:58:35: Preparing scheduled sync
+2024-11-09 20:58:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:03:35: Running background sync on timer...
+2024-11-09 21:03:35: Preparing scheduled sync
+2024-11-09 21:03:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:08:34: RevisionService: maintenance: Starting...
+2024-11-09 21:08:34: RevisionService: maintenance: Service is enabled
+2024-11-09 21:08:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 21:08:34: RevisionService: maintenance: Done in 103ms
+2024-11-09 21:08:35: Running background sync on timer...
+2024-11-09 21:08:35: Preparing scheduled sync
+2024-11-09 21:08:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:13:35: Running background sync on timer...
+2024-11-09 21:13:35: Preparing scheduled sync
+2024-11-09 21:13:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:18:34: RevisionService: maintenance: Starting...
+2024-11-09 21:18:34: RevisionService: maintenance: Service is enabled
+2024-11-09 21:18:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 21:18:34: RevisionService: maintenance: Done in 106ms
+2024-11-09 21:18:35: Running background sync on timer...
+2024-11-09 21:18:35: Preparing scheduled sync
+2024-11-09 21:18:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:23:35: Running background sync on timer...
+2024-11-09 21:23:35: Preparing scheduled sync
+2024-11-09 21:23:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:28:34: RevisionService: maintenance: Starting...
+2024-11-09 21:28:34: RevisionService: maintenance: Service is enabled
+2024-11-09 21:28:34: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 21:28:34: RevisionService: maintenance: Done in 101ms
+2024-11-09 21:28:35: Running background sync on timer...
+2024-11-09 21:28:35: Preparing scheduled sync
+2024-11-09 21:28:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:33:35: Running background sync on timer...
+2024-11-09 21:33:35: Preparing scheduled sync
+2024-11-09 21:33:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:38:34: RevisionService: maintenance: Starting...
+2024-11-09 21:38:34: RevisionService: maintenance: Service is enabled
+2024-11-09 21:38:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 21:38:35: RevisionService: maintenance: Done in 103ms
+2024-11-09 21:38:35: Running background sync on timer...
+2024-11-09 21:38:35: Preparing scheduled sync
+2024-11-09 21:38:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:43:35: Running background sync on timer...
+2024-11-09 21:43:35: Preparing scheduled sync
+2024-11-09 21:43:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:48:35: RevisionService: maintenance: Starting...
+2024-11-09 21:48:35: RevisionService: maintenance: Service is enabled
+2024-11-09 21:48:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 21:48:35: RevisionService: maintenance: Done in 106ms
+2024-11-09 21:48:35: Running background sync on timer...
+2024-11-09 21:48:35: Preparing scheduled sync
+2024-11-09 21:48:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:53:35: Running background sync on timer...
+2024-11-09 21:53:35: Preparing scheduled sync
+2024-11-09 21:53:35: Sync cancelled - no sync target is selected.
+2024-11-09 21:58:35: RevisionService: maintenance: Starting...
+2024-11-09 21:58:35: RevisionService: maintenance: Service is enabled
+2024-11-09 21:58:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 21:58:35: RevisionService: maintenance: Done in 104ms
+2024-11-09 21:58:35: Running background sync on timer...
+2024-11-09 21:58:35: Preparing scheduled sync
+2024-11-09 21:58:35: Sync cancelled - no sync target is selected.
+2024-11-09 22:03:35: Running background sync on timer...
+2024-11-09 22:03:35: Preparing scheduled sync
+2024-11-09 22:03:35: Sync cancelled - no sync target is selected.
+2024-11-09 22:08:35: RevisionService: maintenance: Starting...
+2024-11-09 22:08:35: RevisionService: maintenance: Service is enabled
+2024-11-09 22:08:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 22:08:35: RevisionService: maintenance: Done in 130ms
+2024-11-09 22:08:35: Running background sync on timer...
+2024-11-09 22:08:35: Preparing scheduled sync
+2024-11-09 22:08:35: Sync cancelled - no sync target is selected.
+2024-11-09 22:13:35: Running background sync on timer...
+2024-11-09 22:13:35: Preparing scheduled sync
+2024-11-09 22:13:35: Sync cancelled - no sync target is selected.
+2024-11-09 22:18:35: RevisionService: maintenance: Starting...
+2024-11-09 22:18:35: RevisionService: maintenance: Service is enabled
+2024-11-09 22:18:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 22:18:35: RevisionService: maintenance: Done in 104ms
+2024-11-09 22:18:35: Running background sync on timer...
+2024-11-09 22:18:35: Preparing scheduled sync
+2024-11-09 22:18:35: Sync cancelled - no sync target is selected.
+2024-11-09 22:23:36: Running background sync on timer...
+2024-11-09 22:23:36: Preparing scheduled sync
+2024-11-09 22:23:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:28:35: RevisionService: maintenance: Starting...
+2024-11-09 22:28:35: RevisionService: maintenance: Service is enabled
+2024-11-09 22:28:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 22:28:35: RevisionService: maintenance: Done in 105ms
+2024-11-09 22:28:36: Running background sync on timer...
+2024-11-09 22:28:36: Preparing scheduled sync
+2024-11-09 22:28:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:33:36: Running background sync on timer...
+2024-11-09 22:33:36: Preparing scheduled sync
+2024-11-09 22:33:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:38:35: RevisionService: maintenance: Starting...
+2024-11-09 22:38:35: RevisionService: maintenance: Service is enabled
+2024-11-09 22:38:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 22:38:35: RevisionService: maintenance: Done in 105ms
+2024-11-09 22:38:36: Running background sync on timer...
+2024-11-09 22:38:36: Preparing scheduled sync
+2024-11-09 22:38:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:43:36: Running background sync on timer...
+2024-11-09 22:43:36: Preparing scheduled sync
+2024-11-09 22:43:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:48:35: RevisionService: maintenance: Starting...
+2024-11-09 22:48:35: RevisionService: maintenance: Service is enabled
+2024-11-09 22:48:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 22:48:35: RevisionService: maintenance: Done in 103ms
+2024-11-09 22:48:36: Running background sync on timer...
+2024-11-09 22:48:36: Preparing scheduled sync
+2024-11-09 22:48:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:53:36: Running background sync on timer...
+2024-11-09 22:53:36: Preparing scheduled sync
+2024-11-09 22:53:36: Sync cancelled - no sync target is selected.
+2024-11-09 22:58:35: RevisionService: maintenance: Starting...
+2024-11-09 22:58:35: RevisionService: maintenance: Service is enabled
+2024-11-09 22:58:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 22:58:35: RevisionService: maintenance: Done in 103ms
+2024-11-09 22:58:36: Running background sync on timer...
+2024-11-09 22:58:36: Preparing scheduled sync
+2024-11-09 22:58:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:03:36: Running background sync on timer...
+2024-11-09 23:03:36: Preparing scheduled sync
+2024-11-09 23:03:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:08:35: RevisionService: maintenance: Starting...
+2024-11-09 23:08:35: RevisionService: maintenance: Service is enabled
+2024-11-09 23:08:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 23:08:35: RevisionService: maintenance: Done in 106ms
+2024-11-09 23:08:36: Running background sync on timer...
+2024-11-09 23:08:36: Preparing scheduled sync
+2024-11-09 23:08:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:13:36: Running background sync on timer...
+2024-11-09 23:13:36: Preparing scheduled sync
+2024-11-09 23:13:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:18:35: RevisionService: maintenance: Starting...
+2024-11-09 23:18:35: RevisionService: maintenance: Service is enabled
+2024-11-09 23:18:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 23:18:35: RevisionService: maintenance: Done in 103ms
+2024-11-09 23:18:36: Running background sync on timer...
+2024-11-09 23:18:36: Preparing scheduled sync
+2024-11-09 23:18:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:23:36: Running background sync on timer...
+2024-11-09 23:23:36: Preparing scheduled sync
+2024-11-09 23:23:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:28:33: ResourceService::indexNoteResources: Start
+2024-11-09 23:28:34: ResourceService::indexNoteResources: Completed
+2024-11-09 23:28:34: ResourceService::deleteOrphanResources: []
+2024-11-09 23:28:35: RevisionService: maintenance: Starting...
+2024-11-09 23:28:35: RevisionService: maintenance: Service is enabled
+2024-11-09 23:28:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 23:28:35: RevisionService: maintenance: Done in 104ms
+2024-11-09 23:28:36: Running background sync on timer...
+2024-11-09 23:28:36: Preparing scheduled sync
+2024-11-09 23:28:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:28:44: SearchEngine: Updating FTS table...
+2024-11-09 23:28:44: Updating items_normalized from {"updated_time":0,"id":""}
+2024-11-09 23:28:44: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2024-11-09 23:33:36: Running background sync on timer...
+2024-11-09 23:33:36: Preparing scheduled sync
+2024-11-09 23:33:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:38:35: RevisionService: maintenance: Starting...
+2024-11-09 23:38:35: RevisionService: maintenance: Service is enabled
+2024-11-09 23:38:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 23:38:35: RevisionService: maintenance: Done in 105ms
+2024-11-09 23:38:36: Running background sync on timer...
+2024-11-09 23:38:36: Preparing scheduled sync
+2024-11-09 23:38:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:43:36: Running background sync on timer...
+2024-11-09 23:43:36: Preparing scheduled sync
+2024-11-09 23:43:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:48:35: RevisionService: maintenance: Starting...
+2024-11-09 23:48:35: RevisionService: maintenance: Service is enabled
+2024-11-09 23:48:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 23:48:35: RevisionService: maintenance: Done in 106ms
+2024-11-09 23:48:36: Running background sync on timer...
+2024-11-09 23:48:36: Preparing scheduled sync
+2024-11-09 23:48:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:53:36: Running background sync on timer...
+2024-11-09 23:53:36: Preparing scheduled sync
+2024-11-09 23:53:36: Sync cancelled - no sync target is selected.
+2024-11-09 23:58:35: RevisionService: maintenance: Starting...
+2024-11-09 23:58:35: RevisionService: maintenance: Service is enabled
+2024-11-09 23:58:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-09 23:58:35: RevisionService: maintenance: Done in 104ms
+2024-11-09 23:58:36: Running background sync on timer...
+2024-11-09 23:58:36: Preparing scheduled sync
+2024-11-09 23:58:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:03:36: Running background sync on timer...
+2024-11-10 00:03:36: Preparing scheduled sync
+2024-11-10 00:03:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:08:35: RevisionService: maintenance: Starting...
+2024-11-10 00:08:35: RevisionService: maintenance: Service is enabled
+2024-11-10 00:08:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-10 00:08:35: RevisionService: maintenance: Done in 102ms
+2024-11-10 00:08:36: Running background sync on timer...
+2024-11-10 00:08:36: Preparing scheduled sync
+2024-11-10 00:08:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:13:36: Running background sync on timer...
+2024-11-10 00:13:36: Preparing scheduled sync
+2024-11-10 00:13:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:18:35: RevisionService: maintenance: Starting...
+2024-11-10 00:18:35: RevisionService: maintenance: Service is enabled
+2024-11-10 00:18:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-10 00:18:35: RevisionService: maintenance: Done in 105ms
+2024-11-10 00:18:36: Running background sync on timer...
+2024-11-10 00:18:36: Preparing scheduled sync
+2024-11-10 00:18:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:23:36: Running background sync on timer...
+2024-11-10 00:23:36: Preparing scheduled sync
+2024-11-10 00:23:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:28:35: RevisionService: maintenance: Starting...
+2024-11-10 00:28:35: RevisionService: maintenance: Service is enabled
+2024-11-10 00:28:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-10 00:28:35: RevisionService: maintenance: Done in 103ms
+2024-11-10 00:28:36: Running background sync on timer...
+2024-11-10 00:28:36: Preparing scheduled sync
+2024-11-10 00:28:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:33:36: Running background sync on timer...
+2024-11-10 00:33:36: Preparing scheduled sync
+2024-11-10 00:33:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:38:35: RevisionService: maintenance: Starting...
+2024-11-10 00:38:35: RevisionService: maintenance: Service is enabled
+2024-11-10 00:38:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-10 00:38:35: RevisionService: maintenance: Done in 104ms
+2024-11-10 00:38:36: Running background sync on timer...
+2024-11-10 00:38:36: Preparing scheduled sync
+2024-11-10 00:38:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:43:36: Running background sync on timer...
+2024-11-10 00:43:36: Preparing scheduled sync
+2024-11-10 00:43:36: Sync cancelled - no sync target is selected.
+2024-11-10 00:48:35: RevisionService: maintenance: Starting...
+2024-11-10 00:48:35: RevisionService: maintenance: Service is enabled
+2024-11-10 00:48:35: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-10 00:48:35: RevisionService: maintenance: Done in 106ms
+2024-11-10 00:48:36: Running background sync on timer...
+2024-11-10 00:48:36: Preparing scheduled sync
+2024-11-10 00:48:36: Sync cancelled - no sync target is selected.
+2024-11-16 12:28:45: App: Profile directory: /home/marc/.config/joplin-desktop
+2024-11-16 12:28:45: App: Root profile directory: /home/marc/.config/joplin-desktop
+2024-11-16 12:28:45: Database was open successfully
+2024-11-16 12:28:45: Checking for database schema update...
+2024-11-16 12:28:45: Current database version {"version":47,"table_fields_version":47}
+2024-11-16 12:28:45: Upgrading database from version 47
+2024-11-16 12:28:45: New version: 47. Previously recorded version: 47
+2024-11-16 12:28:45: KeychainService: checking if keychain supported
+2024-11-16 12:28:45: KeychainService: check was already done - skipping. Supported: 0
+2024-11-16 12:28:45: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2024-11-16 12:28:45: handleSyncStartupOperation: Processing operation: 0
+2024-11-16 12:28:45: App: Client ID: 980416d366b4422e93fa4f8a09c61cb2
+2024-11-16 12:28:45: models/Setting: Applying default migrations...
+2024-11-16 12:28:45: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:45: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:45: ResourceFetcher: Auto-add resources: Mode: always
+2024-11-16 12:28:45: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2024-11-16 12:28:46: ResourceFetcher: Auto-added resources: 0
+2024-11-16 12:28:46: permanentlyDeleteOldData: Items to permanently delete: {"noteIds":[],"folderIds":[]}
+2024-11-16 12:28:46: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2024-11-16 12:28:46: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-16 12:28:46: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:46: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:46: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-16 12:28:46: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:46: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:46: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-16 12:28:46: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:46: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:46: app.start: doing regular boot
+2024-11-16 12:28:46: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-16 12:28:46: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:46: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:46: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-16 12:28:46: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:46: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:46: App: "syncInfoCache" was changed - setting up encryption related code
+2024-11-16 12:28:46: e2ee/utils: Trying to load 0 master keys...
+2024-11-16 12:28:46: e2ee/utils: Loaded master keys: 0
+2024-11-16 12:28:46: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2024-11-16 12:28:46: PluginService: Loading plugin from /home/marc/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2024-11-16 12:28:46: SpellCheckerServiceDriverNative: Set effective languages to "en-US"
+2024-11-16 12:28:48: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-11-16 12:28:48: Preparing scheduled sync
+2024-11-16 12:28:48: Sync cancelled - no sync target is selected.
+2024-11-16 12:28:48: Updating all notifications...
+2024-11-16 12:28:48: Garbage collecting alarms...
+2024-11-16 12:28:48: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2024-11-16 12:28:49: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 544ms)
+2024-11-16 12:28:49: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-11-16 12:28:50: RevisionService: maintenance: Starting...
+2024-11-16 12:28:50: RevisionService: maintenance: Service is enabled
+2024-11-16 12:28:50: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-16 12:28:51: RevisionService: maintenance: Done in 922ms
+2024-11-16 12:28:55: SearchEngine: Updating FTS table...
+2024-11-16 12:28:55: Updating items_normalized from {"updated_time":0,"id":""}
+2024-11-16 12:28:55: SearchEngine: Updated FTS table in 31ms. Inserted: 0. Deleted: 0
+2024-11-16 12:29:16: ResourceService::indexNoteResources: Start
+2024-11-16 12:29:16: ResourceService::indexNoteResources: Completed
+2024-11-16 12:29:16: ResourceService::deleteOrphanResources: []
+2024-11-16 12:29:26: SearchEngine: Updating FTS table...
+2024-11-16 12:29:26: Updating items_normalized from {"updated_time":0,"id":""}
+2024-11-16 12:29:26: SearchEngine: Updated FTS table in 5ms. Inserted: 0. Deleted: 0
+2024-11-16 12:33:46: Running background sync on timer...
+2024-11-16 12:33:46: Preparing scheduled sync
+2024-11-16 12:33:46: Sync cancelled - no sync target is selected.
+2024-11-16 12:38:46: Running background sync on timer...
+2024-11-16 12:38:46: Preparing scheduled sync
+2024-11-16 12:38:46: Sync cancelled - no sync target is selected.
+2024-11-16 12:38:46: RevisionService: maintenance: Starting...
+2024-11-16 12:38:46: RevisionService: maintenance: Service is enabled
+2024-11-16 12:38:46: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-16 12:38:46: RevisionService: maintenance: Done in 114ms
+2024-11-16 12:43:46: Running background sync on timer...
+2024-11-16 12:43:46: Preparing scheduled sync
+2024-11-16 12:43:46: Sync cancelled - no sync target is selected.
+2024-11-16 12:48:46: Running background sync on timer...
+2024-11-16 12:48:46: Preparing scheduled sync
+2024-11-16 12:48:46: Sync cancelled - no sync target is selected.
+2024-11-16 12:48:46: RevisionService: maintenance: Starting...
+2024-11-16 12:48:46: RevisionService: maintenance: Service is enabled
+2024-11-16 12:48:46: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-16 12:48:46: RevisionService: maintenance: Done in 137ms
+2024-11-16 12:53:46: Running background sync on timer...
+2024-11-16 12:53:46: Preparing scheduled sync
+2024-11-16 12:53:46: Sync cancelled - no sync target is selected.
+2024-11-16 12:58:46: RevisionService: maintenance: Starting...
+2024-11-16 12:58:46: RevisionService: maintenance: Service is enabled
+2024-11-16 12:58:46: Running background sync on timer...
+2024-11-16 12:58:46: Preparing scheduled sync
+2024-11-16 12:58:46: Sync cancelled - no sync target is selected.
+2024-11-16 12:58:46: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-16 12:58:46: RevisionService: maintenance: Done in 109ms
+2024-11-16 13:03:46: Running background sync on timer...
+2024-11-16 13:03:46: Preparing scheduled sync
+2024-11-16 13:03:46: Sync cancelled - no sync target is selected.
+2024-11-16 13:08:46: RevisionService: maintenance: Starting...
+2024-11-16 13:08:46: RevisionService: maintenance: Service is enabled
+2024-11-16 13:08:46: Running background sync on timer...
+2024-11-16 13:08:46: Preparing scheduled sync
+2024-11-16 13:08:46: Sync cancelled - no sync target is selected.
+2024-11-16 13:08:46: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-11-16 13:08:47: RevisionService: maintenance: Done in 269ms
+2024-11-16 13:13:46: Running background sync on timer...
+2024-11-16 13:13:46: Preparing scheduled sync
+2024-11-16 13:13:46: Sync cancelled - no sync target is selected.
+2024-12-31 18:17:18: App: Profile directory: /home/marc/.config/joplin-desktop
+2024-12-31 18:17:18: App: Root profile directory: /home/marc/.config/joplin-desktop
+2024-12-31 18:17:18: Database was open successfully
+2024-12-31 18:17:18: Checking for database schema update...
+2024-12-31 18:17:18: Current database version {"version":47,"table_fields_version":47}
+2024-12-31 18:17:18: Upgrading database from version 47
+2024-12-31 18:17:18: New version: 47. Previously recorded version: 47
+2024-12-31 18:17:18: KeychainService: checking if keychain supported
+2024-12-31 18:17:18: KeychainService: check was already done - skipping. Supported: 0
+2024-12-31 18:17:18: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2024-12-31 18:17:18: handleSyncStartupOperation: Processing operation: 0
+2024-12-31 18:17:18: App: Client ID: 980416d366b4422e93fa4f8a09c61cb2
+2024-12-31 18:17:18: models/Setting: Applying default migrations...
+2024-12-31 18:17:18: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:18: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:18: ResourceFetcher: Auto-add resources: Mode: always
+2024-12-31 18:17:18: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2024-12-31 18:17:19: ResourceFetcher: Auto-added resources: 0
+2024-12-31 18:17:19: permanentlyDeleteOldData: Items to permanently delete: {"noteIds":[],"folderIds":[]}
+2024-12-31 18:17:19: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2024-12-31 18:17:19: App: "syncInfoCache" was changed - setting up encryption related code
+2024-12-31 18:17:19: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:19: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:19: App: "syncInfoCache" was changed - setting up encryption related code
+2024-12-31 18:17:19: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:19: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:19: App: "syncInfoCache" was changed - setting up encryption related code
+2024-12-31 18:17:19: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:19: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:19: app.start: doing regular boot
+2024-12-31 18:17:19: App: "syncInfoCache" was changed - setting up encryption related code
+2024-12-31 18:17:19: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:19: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:19: App: "syncInfoCache" was changed - setting up encryption related code
+2024-12-31 18:17:19: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:19: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:19: App: "syncInfoCache" was changed - setting up encryption related code
+2024-12-31 18:17:19: e2ee/utils: Trying to load 0 master keys...
+2024-12-31 18:17:19: e2ee/utils: Loaded master keys: 0
+2024-12-31 18:17:19: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2024-12-31 18:17:19: PluginService: Loading plugin from /home/marc/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2024-12-31 18:17:19: SpellCheckerServiceDriverNative: Set effective languages to "en-US"
+2024-12-31 18:17:20: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-12-31 18:17:20: Preparing scheduled sync
+2024-12-31 18:17:20: Sync cancelled - no sync target is selected.
+2024-12-31 18:17:20: Updating all notifications...
+2024-12-31 18:17:20: Garbage collecting alarms...
+2024-12-31 18:17:20: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2024-12-31 18:17:21: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 474ms)
+2024-12-31 18:17:21: DecryptionWorker: cannot start because no master key is currently loaded.
+2024-12-31 18:17:23: RevisionService: maintenance: Starting...
+2024-12-31 18:17:23: RevisionService: maintenance: Service is enabled
+2024-12-31 18:17:23: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 18:17:28: SearchEngine: Updating FTS table...
+2024-12-31 18:17:29: Updating items_normalized from {"updated_time":0,"id":""}
+2024-12-31 18:17:29: SearchEngine: Updated FTS table in 80ms. Inserted: 0. Deleted: 0
+2024-12-31 18:17:29: RevisionService: maintenance: Done in 6145ms
+2024-12-31 18:17:49: ResourceService::indexNoteResources: Start
+2024-12-31 18:17:49: ResourceService::indexNoteResources: Completed
+2024-12-31 18:17:49: ResourceService::deleteOrphanResources: [102b69dbbcd644d09d26a14b249d8ee9]
+2024-12-31 18:17:49: DeleteAction: deleteOrphanResources: title: AllClients.png; Item IDs: ["102b69dbbcd644d09d26a14b249d8ee9"]
+2024-12-31 18:17:50: DeleteAction: deleteOrphanResources: Delete local resource state; Item IDs: ["102b69dbbcd644d09d26a14b249d8ee9"]
+2024-12-31 18:17:59: SearchEngine: Updating FTS table...
+2024-12-31 18:17:59: Updating items_normalized from {"updated_time":0,"id":""}
+2024-12-31 18:17:59: SearchEngine: Updated FTS table in 8ms. Inserted: 0. Deleted: 0
+2024-12-31 18:22:19: Running background sync on timer...
+2024-12-31 18:22:19: Preparing scheduled sync
+2024-12-31 18:22:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:27:19: RevisionService: maintenance: Starting...
+2024-12-31 18:27:19: RevisionService: maintenance: Service is enabled
+2024-12-31 18:27:19: Running background sync on timer...
+2024-12-31 18:27:19: Preparing scheduled sync
+2024-12-31 18:27:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:27:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 18:27:19: RevisionService: maintenance: Done in 106ms
+2024-12-31 18:32:19: Running background sync on timer...
+2024-12-31 18:32:19: Preparing scheduled sync
+2024-12-31 18:32:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:37:19: RevisionService: maintenance: Starting...
+2024-12-31 18:37:19: RevisionService: maintenance: Service is enabled
+2024-12-31 18:37:19: Running background sync on timer...
+2024-12-31 18:37:19: Preparing scheduled sync
+2024-12-31 18:37:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:37:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 18:37:19: RevisionService: maintenance: Done in 106ms
+2024-12-31 18:42:19: Running background sync on timer...
+2024-12-31 18:42:19: Preparing scheduled sync
+2024-12-31 18:42:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:47:19: RevisionService: maintenance: Starting...
+2024-12-31 18:47:19: RevisionService: maintenance: Service is enabled
+2024-12-31 18:47:19: Running background sync on timer...
+2024-12-31 18:47:19: Preparing scheduled sync
+2024-12-31 18:47:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:47:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 18:47:19: RevisionService: maintenance: Done in 107ms
+2024-12-31 18:52:19: Running background sync on timer...
+2024-12-31 18:52:19: Preparing scheduled sync
+2024-12-31 18:52:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:57:19: RevisionService: maintenance: Starting...
+2024-12-31 18:57:19: RevisionService: maintenance: Service is enabled
+2024-12-31 18:57:19: Running background sync on timer...
+2024-12-31 18:57:19: Preparing scheduled sync
+2024-12-31 18:57:19: Sync cancelled - no sync target is selected.
+2024-12-31 18:57:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 18:57:19: RevisionService: maintenance: Done in 107ms
+2024-12-31 19:02:19: Running background sync on timer...
+2024-12-31 19:02:19: Preparing scheduled sync
+2024-12-31 19:02:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:07:19: RevisionService: maintenance: Starting...
+2024-12-31 19:07:19: RevisionService: maintenance: Service is enabled
+2024-12-31 19:07:19: Running background sync on timer...
+2024-12-31 19:07:19: Preparing scheduled sync
+2024-12-31 19:07:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:07:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 19:07:19: RevisionService: maintenance: Done in 107ms
+2024-12-31 19:12:19: Running background sync on timer...
+2024-12-31 19:12:19: Preparing scheduled sync
+2024-12-31 19:12:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:17:19: Garbage collecting alarms...
+2024-12-31 19:17:19: RevisionService: maintenance: Starting...
+2024-12-31 19:17:19: RevisionService: maintenance: Service is enabled
+2024-12-31 19:17:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 19:17:19: RevisionService: maintenance: Done in 107ms
+2024-12-31 19:17:19: Running background sync on timer...
+2024-12-31 19:17:19: Preparing scheduled sync
+2024-12-31 19:17:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:22:19: Running background sync on timer...
+2024-12-31 19:22:19: Preparing scheduled sync
+2024-12-31 19:22:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:27:19: RevisionService: maintenance: Starting...
+2024-12-31 19:27:19: RevisionService: maintenance: Service is enabled
+2024-12-31 19:27:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 19:27:19: RevisionService: maintenance: Done in 107ms
+2024-12-31 19:27:19: Running background sync on timer...
+2024-12-31 19:27:19: Preparing scheduled sync
+2024-12-31 19:27:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:32:19: Running background sync on timer...
+2024-12-31 19:32:19: Preparing scheduled sync
+2024-12-31 19:32:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:37:19: RevisionService: maintenance: Starting...
+2024-12-31 19:37:19: RevisionService: maintenance: Service is enabled
+2024-12-31 19:37:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 19:37:19: RevisionService: maintenance: Done in 106ms
+2024-12-31 19:37:19: Running background sync on timer...
+2024-12-31 19:37:19: Preparing scheduled sync
+2024-12-31 19:37:19: Sync cancelled - no sync target is selected.
+2024-12-31 19:42:20: Running background sync on timer...
+2024-12-31 19:42:20: Preparing scheduled sync
+2024-12-31 19:42:20: Sync cancelled - no sync target is selected.
+2024-12-31 19:47:19: RevisionService: maintenance: Starting...
+2024-12-31 19:47:19: RevisionService: maintenance: Service is enabled
+2024-12-31 19:47:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 19:47:19: RevisionService: maintenance: Done in 106ms
+2024-12-31 19:47:20: Running background sync on timer...
+2024-12-31 19:47:20: Preparing scheduled sync
+2024-12-31 19:47:20: Sync cancelled - no sync target is selected.
+2024-12-31 19:52:20: Running background sync on timer...
+2024-12-31 19:52:20: Preparing scheduled sync
+2024-12-31 19:52:20: Sync cancelled - no sync target is selected.
+2024-12-31 19:57:19: RevisionService: maintenance: Starting...
+2024-12-31 19:57:19: RevisionService: maintenance: Service is enabled
+2024-12-31 19:57:19: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 19:57:19: RevisionService: maintenance: Done in 107ms
+2024-12-31 19:57:20: Running background sync on timer...
+2024-12-31 19:57:20: Preparing scheduled sync
+2024-12-31 19:57:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:02:20: Running background sync on timer...
+2024-12-31 20:02:20: Preparing scheduled sync
+2024-12-31 20:02:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:07:19: RevisionService: maintenance: Starting...
+2024-12-31 20:07:19: RevisionService: maintenance: Service is enabled
+2024-12-31 20:07:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 20:07:20: RevisionService: maintenance: Done in 107ms
+2024-12-31 20:07:20: Running background sync on timer...
+2024-12-31 20:07:20: Preparing scheduled sync
+2024-12-31 20:07:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:12:20: Running background sync on timer...
+2024-12-31 20:12:20: Preparing scheduled sync
+2024-12-31 20:12:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:17:19: RevisionService: maintenance: Starting...
+2024-12-31 20:17:19: RevisionService: maintenance: Service is enabled
+2024-12-31 20:17:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 20:17:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 20:17:20: Running background sync on timer...
+2024-12-31 20:17:20: Preparing scheduled sync
+2024-12-31 20:17:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:22:20: Running background sync on timer...
+2024-12-31 20:22:20: Preparing scheduled sync
+2024-12-31 20:22:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:27:20: RevisionService: maintenance: Starting...
+2024-12-31 20:27:20: RevisionService: maintenance: Service is enabled
+2024-12-31 20:27:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 20:27:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 20:27:20: Running background sync on timer...
+2024-12-31 20:27:20: Preparing scheduled sync
+2024-12-31 20:27:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:32:20: Running background sync on timer...
+2024-12-31 20:32:20: Preparing scheduled sync
+2024-12-31 20:32:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:37:20: RevisionService: maintenance: Starting...
+2024-12-31 20:37:20: RevisionService: maintenance: Service is enabled
+2024-12-31 20:37:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 20:37:20: RevisionService: maintenance: Done in 107ms
+2024-12-31 20:37:20: Running background sync on timer...
+2024-12-31 20:37:20: Preparing scheduled sync
+2024-12-31 20:37:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:42:20: Running background sync on timer...
+2024-12-31 20:42:20: Preparing scheduled sync
+2024-12-31 20:42:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:47:20: RevisionService: maintenance: Starting...
+2024-12-31 20:47:20: RevisionService: maintenance: Service is enabled
+2024-12-31 20:47:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 20:47:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 20:47:20: Running background sync on timer...
+2024-12-31 20:47:20: Preparing scheduled sync
+2024-12-31 20:47:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:52:20: Running background sync on timer...
+2024-12-31 20:52:20: Preparing scheduled sync
+2024-12-31 20:52:20: Sync cancelled - no sync target is selected.
+2024-12-31 20:57:20: RevisionService: maintenance: Starting...
+2024-12-31 20:57:20: RevisionService: maintenance: Service is enabled
+2024-12-31 20:57:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 20:57:20: RevisionService: maintenance: Done in 102ms
+2024-12-31 20:57:20: Running background sync on timer...
+2024-12-31 20:57:20: Preparing scheduled sync
+2024-12-31 20:57:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:02:20: Running background sync on timer...
+2024-12-31 21:02:20: Preparing scheduled sync
+2024-12-31 21:02:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:07:20: RevisionService: maintenance: Starting...
+2024-12-31 21:07:20: RevisionService: maintenance: Service is enabled
+2024-12-31 21:07:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 21:07:20: RevisionService: maintenance: Done in 107ms
+2024-12-31 21:07:20: Running background sync on timer...
+2024-12-31 21:07:20: Preparing scheduled sync
+2024-12-31 21:07:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:12:20: Running background sync on timer...
+2024-12-31 21:12:20: Preparing scheduled sync
+2024-12-31 21:12:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:17:20: RevisionService: maintenance: Starting...
+2024-12-31 21:17:20: RevisionService: maintenance: Service is enabled
+2024-12-31 21:17:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 21:17:20: RevisionService: maintenance: Done in 107ms
+2024-12-31 21:17:20: Running background sync on timer...
+2024-12-31 21:17:20: Preparing scheduled sync
+2024-12-31 21:17:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:22:20: Running background sync on timer...
+2024-12-31 21:22:20: Preparing scheduled sync
+2024-12-31 21:22:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:27:20: RevisionService: maintenance: Starting...
+2024-12-31 21:27:20: RevisionService: maintenance: Service is enabled
+2024-12-31 21:27:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 21:27:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 21:27:20: Running background sync on timer...
+2024-12-31 21:27:20: Preparing scheduled sync
+2024-12-31 21:27:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:32:20: Running background sync on timer...
+2024-12-31 21:32:20: Preparing scheduled sync
+2024-12-31 21:32:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:37:20: RevisionService: maintenance: Starting...
+2024-12-31 21:37:20: RevisionService: maintenance: Service is enabled
+2024-12-31 21:37:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 21:37:20: RevisionService: maintenance: Done in 102ms
+2024-12-31 21:37:20: Running background sync on timer...
+2024-12-31 21:37:20: Preparing scheduled sync
+2024-12-31 21:37:20: Sync cancelled - no sync target is selected.
+2024-12-31 21:42:21: Running background sync on timer...
+2024-12-31 21:42:21: Preparing scheduled sync
+2024-12-31 21:42:21: Sync cancelled - no sync target is selected.
+2024-12-31 21:47:20: RevisionService: maintenance: Starting...
+2024-12-31 21:47:20: RevisionService: maintenance: Service is enabled
+2024-12-31 21:47:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 21:47:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 21:47:21: Running background sync on timer...
+2024-12-31 21:47:21: Preparing scheduled sync
+2024-12-31 21:47:21: Sync cancelled - no sync target is selected.
+2024-12-31 21:52:21: Running background sync on timer...
+2024-12-31 21:52:21: Preparing scheduled sync
+2024-12-31 21:52:21: Sync cancelled - no sync target is selected.
+2024-12-31 21:57:20: RevisionService: maintenance: Starting...
+2024-12-31 21:57:20: RevisionService: maintenance: Service is enabled
+2024-12-31 21:57:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 21:57:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 21:57:21: Running background sync on timer...
+2024-12-31 21:57:21: Preparing scheduled sync
+2024-12-31 21:57:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:02:21: Running background sync on timer...
+2024-12-31 22:02:21: Preparing scheduled sync
+2024-12-31 22:02:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:07:20: RevisionService: maintenance: Starting...
+2024-12-31 22:07:20: RevisionService: maintenance: Service is enabled
+2024-12-31 22:07:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 22:07:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 22:07:21: Running background sync on timer...
+2024-12-31 22:07:21: Preparing scheduled sync
+2024-12-31 22:07:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:12:21: Running background sync on timer...
+2024-12-31 22:12:21: Preparing scheduled sync
+2024-12-31 22:12:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:17:19: ResourceService::indexNoteResources: Start
+2024-12-31 22:17:19: ResourceService::indexNoteResources: Completed
+2024-12-31 22:17:19: ResourceService::deleteOrphanResources: []
+2024-12-31 22:17:20: RevisionService: maintenance: Starting...
+2024-12-31 22:17:20: RevisionService: maintenance: Service is enabled
+2024-12-31 22:17:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 22:17:20: RevisionService: maintenance: Done in 107ms
+2024-12-31 22:17:21: Running background sync on timer...
+2024-12-31 22:17:21: Preparing scheduled sync
+2024-12-31 22:17:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:17:29: SearchEngine: Updating FTS table...
+2024-12-31 22:17:29: Updating items_normalized from {"updated_time":0,"id":""}
+2024-12-31 22:17:29: SearchEngine: Updated FTS table in 7ms. Inserted: 0. Deleted: 0
+2024-12-31 22:22:21: Running background sync on timer...
+2024-12-31 22:22:21: Preparing scheduled sync
+2024-12-31 22:22:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:27:20: RevisionService: maintenance: Starting...
+2024-12-31 22:27:20: RevisionService: maintenance: Service is enabled
+2024-12-31 22:27:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 22:27:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 22:27:21: Running background sync on timer...
+2024-12-31 22:27:21: Preparing scheduled sync
+2024-12-31 22:27:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:32:21: Running background sync on timer...
+2024-12-31 22:32:21: Preparing scheduled sync
+2024-12-31 22:32:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:37:20: RevisionService: maintenance: Starting...
+2024-12-31 22:37:20: RevisionService: maintenance: Service is enabled
+2024-12-31 22:37:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 22:37:20: RevisionService: maintenance: Done in 105ms
+2024-12-31 22:37:21: Running background sync on timer...
+2024-12-31 22:37:21: Preparing scheduled sync
+2024-12-31 22:37:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:42:21: Running background sync on timer...
+2024-12-31 22:42:21: Preparing scheduled sync
+2024-12-31 22:42:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:47:20: RevisionService: maintenance: Starting...
+2024-12-31 22:47:20: RevisionService: maintenance: Service is enabled
+2024-12-31 22:47:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 22:47:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 22:47:21: Running background sync on timer...
+2024-12-31 22:47:21: Preparing scheduled sync
+2024-12-31 22:47:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:52:21: Running background sync on timer...
+2024-12-31 22:52:21: Preparing scheduled sync
+2024-12-31 22:52:21: Sync cancelled - no sync target is selected.
+2024-12-31 22:57:20: RevisionService: maintenance: Starting...
+2024-12-31 22:57:20: RevisionService: maintenance: Service is enabled
+2024-12-31 22:57:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 22:57:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 22:57:21: Running background sync on timer...
+2024-12-31 22:57:21: Preparing scheduled sync
+2024-12-31 22:57:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:02:21: Running background sync on timer...
+2024-12-31 23:02:21: Preparing scheduled sync
+2024-12-31 23:02:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:07:20: RevisionService: maintenance: Starting...
+2024-12-31 23:07:20: RevisionService: maintenance: Service is enabled
+2024-12-31 23:07:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 23:07:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 23:07:21: Running background sync on timer...
+2024-12-31 23:07:21: Preparing scheduled sync
+2024-12-31 23:07:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:12:21: Running background sync on timer...
+2024-12-31 23:12:21: Preparing scheduled sync
+2024-12-31 23:12:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:17:20: RevisionService: maintenance: Starting...
+2024-12-31 23:17:20: RevisionService: maintenance: Service is enabled
+2024-12-31 23:17:20: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 23:17:20: RevisionService: maintenance: Done in 106ms
+2024-12-31 23:17:21: Running background sync on timer...
+2024-12-31 23:17:21: Preparing scheduled sync
+2024-12-31 23:17:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:22:21: Running background sync on timer...
+2024-12-31 23:22:21: Preparing scheduled sync
+2024-12-31 23:22:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:27:20: RevisionService: maintenance: Starting...
+2024-12-31 23:27:20: RevisionService: maintenance: Service is enabled
+2024-12-31 23:27:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 23:27:21: RevisionService: maintenance: Done in 106ms
+2024-12-31 23:27:21: Running background sync on timer...
+2024-12-31 23:27:21: Preparing scheduled sync
+2024-12-31 23:27:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:32:21: Running background sync on timer...
+2024-12-31 23:32:21: Preparing scheduled sync
+2024-12-31 23:32:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:37:20: RevisionService: maintenance: Starting...
+2024-12-31 23:37:20: RevisionService: maintenance: Service is enabled
+2024-12-31 23:37:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 23:37:21: RevisionService: maintenance: Done in 107ms
+2024-12-31 23:37:21: Running background sync on timer...
+2024-12-31 23:37:21: Preparing scheduled sync
+2024-12-31 23:37:21: Sync cancelled - no sync target is selected.
+2024-12-31 23:42:22: Running background sync on timer...
+2024-12-31 23:42:22: Preparing scheduled sync
+2024-12-31 23:42:22: Sync cancelled - no sync target is selected.
+2024-12-31 23:47:21: RevisionService: maintenance: Starting...
+2024-12-31 23:47:21: RevisionService: maintenance: Service is enabled
+2024-12-31 23:47:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 23:47:21: RevisionService: maintenance: Done in 106ms
+2024-12-31 23:47:22: Running background sync on timer...
+2024-12-31 23:47:22: Preparing scheduled sync
+2024-12-31 23:47:22: Sync cancelled - no sync target is selected.
+2024-12-31 23:52:22: Running background sync on timer...
+2024-12-31 23:52:22: Preparing scheduled sync
+2024-12-31 23:52:22: Sync cancelled - no sync target is selected.
+2024-12-31 23:57:21: RevisionService: maintenance: Starting...
+2024-12-31 23:57:21: RevisionService: maintenance: Service is enabled
+2024-12-31 23:57:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2024-12-31 23:57:21: RevisionService: maintenance: Done in 106ms
+2024-12-31 23:57:22: Running background sync on timer...
+2024-12-31 23:57:22: Preparing scheduled sync
+2024-12-31 23:57:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:02:22: Running background sync on timer...
+2025-01-01 00:02:22: Preparing scheduled sync
+2025-01-01 00:02:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:07:21: RevisionService: maintenance: Starting...
+2025-01-01 00:07:21: RevisionService: maintenance: Service is enabled
+2025-01-01 00:07:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 00:07:21: RevisionService: maintenance: Done in 107ms
+2025-01-01 00:07:22: Running background sync on timer...
+2025-01-01 00:07:22: Preparing scheduled sync
+2025-01-01 00:07:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:12:22: Running background sync on timer...
+2025-01-01 00:12:22: Preparing scheduled sync
+2025-01-01 00:12:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:17:21: RevisionService: maintenance: Starting...
+2025-01-01 00:17:21: RevisionService: maintenance: Service is enabled
+2025-01-01 00:17:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 00:17:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 00:17:22: Running background sync on timer...
+2025-01-01 00:17:22: Preparing scheduled sync
+2025-01-01 00:17:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:22:22: Running background sync on timer...
+2025-01-01 00:22:22: Preparing scheduled sync
+2025-01-01 00:22:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:27:21: RevisionService: maintenance: Starting...
+2025-01-01 00:27:21: RevisionService: maintenance: Service is enabled
+2025-01-01 00:27:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 00:27:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 00:27:22: Running background sync on timer...
+2025-01-01 00:27:22: Preparing scheduled sync
+2025-01-01 00:27:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:32:22: Running background sync on timer...
+2025-01-01 00:32:22: Preparing scheduled sync
+2025-01-01 00:32:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:37:21: RevisionService: maintenance: Starting...
+2025-01-01 00:37:21: RevisionService: maintenance: Service is enabled
+2025-01-01 00:37:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 00:37:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 00:37:22: Running background sync on timer...
+2025-01-01 00:37:22: Preparing scheduled sync
+2025-01-01 00:37:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:42:22: Running background sync on timer...
+2025-01-01 00:42:22: Preparing scheduled sync
+2025-01-01 00:42:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:47:21: RevisionService: maintenance: Starting...
+2025-01-01 00:47:21: RevisionService: maintenance: Service is enabled
+2025-01-01 00:47:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 00:47:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 00:47:22: Running background sync on timer...
+2025-01-01 00:47:22: Preparing scheduled sync
+2025-01-01 00:47:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:52:22: Running background sync on timer...
+2025-01-01 00:52:22: Preparing scheduled sync
+2025-01-01 00:52:22: Sync cancelled - no sync target is selected.
+2025-01-01 00:57:21: RevisionService: maintenance: Starting...
+2025-01-01 00:57:21: RevisionService: maintenance: Service is enabled
+2025-01-01 00:57:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 00:57:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 00:57:22: Running background sync on timer...
+2025-01-01 00:57:22: Preparing scheduled sync
+2025-01-01 00:57:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:02:22: Running background sync on timer...
+2025-01-01 01:02:22: Preparing scheduled sync
+2025-01-01 01:02:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:07:21: RevisionService: maintenance: Starting...
+2025-01-01 01:07:21: RevisionService: maintenance: Service is enabled
+2025-01-01 01:07:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 01:07:21: RevisionService: maintenance: Done in 105ms
+2025-01-01 01:07:22: Running background sync on timer...
+2025-01-01 01:07:22: Preparing scheduled sync
+2025-01-01 01:07:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:12:22: Running background sync on timer...
+2025-01-01 01:12:22: Preparing scheduled sync
+2025-01-01 01:12:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:17:21: RevisionService: maintenance: Starting...
+2025-01-01 01:17:21: RevisionService: maintenance: Service is enabled
+2025-01-01 01:17:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 01:17:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 01:17:22: Running background sync on timer...
+2025-01-01 01:17:22: Preparing scheduled sync
+2025-01-01 01:17:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:22:22: Running background sync on timer...
+2025-01-01 01:22:22: Preparing scheduled sync
+2025-01-01 01:22:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:27:21: RevisionService: maintenance: Starting...
+2025-01-01 01:27:21: RevisionService: maintenance: Service is enabled
+2025-01-01 01:27:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 01:27:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 01:27:22: Running background sync on timer...
+2025-01-01 01:27:22: Preparing scheduled sync
+2025-01-01 01:27:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:32:22: Running background sync on timer...
+2025-01-01 01:32:22: Preparing scheduled sync
+2025-01-01 01:32:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:37:21: RevisionService: maintenance: Starting...
+2025-01-01 01:37:21: RevisionService: maintenance: Service is enabled
+2025-01-01 01:37:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 01:37:21: RevisionService: maintenance: Done in 105ms
+2025-01-01 01:37:22: Running background sync on timer...
+2025-01-01 01:37:22: Preparing scheduled sync
+2025-01-01 01:37:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:42:22: Running background sync on timer...
+2025-01-01 01:42:22: Preparing scheduled sync
+2025-01-01 01:42:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:47:21: RevisionService: maintenance: Starting...
+2025-01-01 01:47:21: RevisionService: maintenance: Service is enabled
+2025-01-01 01:47:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 01:47:21: RevisionService: maintenance: Done in 103ms
+2025-01-01 01:47:22: Running background sync on timer...
+2025-01-01 01:47:22: Preparing scheduled sync
+2025-01-01 01:47:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:52:22: Running background sync on timer...
+2025-01-01 01:52:22: Preparing scheduled sync
+2025-01-01 01:52:22: Sync cancelled - no sync target is selected.
+2025-01-01 01:57:21: RevisionService: maintenance: Starting...
+2025-01-01 01:57:21: RevisionService: maintenance: Service is enabled
+2025-01-01 01:57:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 01:57:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 01:57:22: Running background sync on timer...
+2025-01-01 01:57:22: Preparing scheduled sync
+2025-01-01 01:57:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:02:22: Running background sync on timer...
+2025-01-01 02:02:22: Preparing scheduled sync
+2025-01-01 02:02:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:07:21: RevisionService: maintenance: Starting...
+2025-01-01 02:07:21: RevisionService: maintenance: Service is enabled
+2025-01-01 02:07:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 02:07:21: RevisionService: maintenance: Done in 107ms
+2025-01-01 02:07:22: Running background sync on timer...
+2025-01-01 02:07:22: Preparing scheduled sync
+2025-01-01 02:07:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:12:22: Running background sync on timer...
+2025-01-01 02:12:22: Preparing scheduled sync
+2025-01-01 02:12:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:17:19: ResourceService::indexNoteResources: Start
+2025-01-01 02:17:19: ResourceService::indexNoteResources: Completed
+2025-01-01 02:17:19: ResourceService::deleteOrphanResources: []
+2025-01-01 02:17:21: RevisionService: maintenance: Starting...
+2025-01-01 02:17:21: RevisionService: maintenance: Service is enabled
+2025-01-01 02:17:21: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 02:17:21: RevisionService: maintenance: Done in 106ms
+2025-01-01 02:17:22: Running background sync on timer...
+2025-01-01 02:17:22: Preparing scheduled sync
+2025-01-01 02:17:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:17:29: SearchEngine: Updating FTS table...
+2025-01-01 02:17:29: Updating items_normalized from {"updated_time":0,"id":""}
+2025-01-01 02:17:29: SearchEngine: Updated FTS table in 6ms. Inserted: 0. Deleted: 0
+2025-01-01 02:22:22: Running background sync on timer...
+2025-01-01 02:22:22: Preparing scheduled sync
+2025-01-01 02:22:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:27:21: RevisionService: maintenance: Starting...
+2025-01-01 02:27:21: RevisionService: maintenance: Service is enabled
+2025-01-01 02:27:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 02:27:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 02:27:22: Running background sync on timer...
+2025-01-01 02:27:22: Preparing scheduled sync
+2025-01-01 02:27:22: Sync cancelled - no sync target is selected.
+2025-01-01 02:32:23: Running background sync on timer...
+2025-01-01 02:32:23: Preparing scheduled sync
+2025-01-01 02:32:23: Sync cancelled - no sync target is selected.
+2025-01-01 02:37:22: RevisionService: maintenance: Starting...
+2025-01-01 02:37:22: RevisionService: maintenance: Service is enabled
+2025-01-01 02:37:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 02:37:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 02:37:23: Running background sync on timer...
+2025-01-01 02:37:23: Preparing scheduled sync
+2025-01-01 02:37:23: Sync cancelled - no sync target is selected.
+2025-01-01 02:42:23: Running background sync on timer...
+2025-01-01 02:42:23: Preparing scheduled sync
+2025-01-01 02:42:23: Sync cancelled - no sync target is selected.
+2025-01-01 02:47:22: RevisionService: maintenance: Starting...
+2025-01-01 02:47:22: RevisionService: maintenance: Service is enabled
+2025-01-01 02:47:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 02:47:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 02:47:23: Running background sync on timer...
+2025-01-01 02:47:23: Preparing scheduled sync
+2025-01-01 02:47:23: Sync cancelled - no sync target is selected.
+2025-01-01 02:52:23: Running background sync on timer...
+2025-01-01 02:52:23: Preparing scheduled sync
+2025-01-01 02:52:23: Sync cancelled - no sync target is selected.
+2025-01-01 02:57:22: RevisionService: maintenance: Starting...
+2025-01-01 02:57:22: RevisionService: maintenance: Service is enabled
+2025-01-01 02:57:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 02:57:22: RevisionService: maintenance: Done in 107ms
+2025-01-01 02:57:23: Running background sync on timer...
+2025-01-01 02:57:23: Preparing scheduled sync
+2025-01-01 02:57:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:02:23: Running background sync on timer...
+2025-01-01 03:02:23: Preparing scheduled sync
+2025-01-01 03:02:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:07:22: RevisionService: maintenance: Starting...
+2025-01-01 03:07:22: RevisionService: maintenance: Service is enabled
+2025-01-01 03:07:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 03:07:22: RevisionService: maintenance: Done in 107ms
+2025-01-01 03:07:23: Running background sync on timer...
+2025-01-01 03:07:23: Preparing scheduled sync
+2025-01-01 03:07:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:12:23: Running background sync on timer...
+2025-01-01 03:12:23: Preparing scheduled sync
+2025-01-01 03:12:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:17:22: RevisionService: maintenance: Starting...
+2025-01-01 03:17:22: RevisionService: maintenance: Service is enabled
+2025-01-01 03:17:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 03:17:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 03:17:23: Running background sync on timer...
+2025-01-01 03:17:23: Preparing scheduled sync
+2025-01-01 03:17:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:22:23: Running background sync on timer...
+2025-01-01 03:22:23: Preparing scheduled sync
+2025-01-01 03:22:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:27:22: RevisionService: maintenance: Starting...
+2025-01-01 03:27:22: RevisionService: maintenance: Service is enabled
+2025-01-01 03:27:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 03:27:22: RevisionService: maintenance: Done in 123ms
+2025-01-01 03:27:23: Running background sync on timer...
+2025-01-01 03:27:23: Preparing scheduled sync
+2025-01-01 03:27:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:32:23: Running background sync on timer...
+2025-01-01 03:32:23: Preparing scheduled sync
+2025-01-01 03:32:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:37:22: RevisionService: maintenance: Starting...
+2025-01-01 03:37:22: RevisionService: maintenance: Service is enabled
+2025-01-01 03:37:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 03:37:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 03:37:23: Running background sync on timer...
+2025-01-01 03:37:23: Preparing scheduled sync
+2025-01-01 03:37:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:42:23: Running background sync on timer...
+2025-01-01 03:42:23: Preparing scheduled sync
+2025-01-01 03:42:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:47:22: RevisionService: maintenance: Starting...
+2025-01-01 03:47:22: RevisionService: maintenance: Service is enabled
+2025-01-01 03:47:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 03:47:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 03:47:23: Running background sync on timer...
+2025-01-01 03:47:23: Preparing scheduled sync
+2025-01-01 03:47:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:52:23: Running background sync on timer...
+2025-01-01 03:52:23: Preparing scheduled sync
+2025-01-01 03:52:23: Sync cancelled - no sync target is selected.
+2025-01-01 03:57:22: RevisionService: maintenance: Starting...
+2025-01-01 03:57:22: RevisionService: maintenance: Service is enabled
+2025-01-01 03:57:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 03:57:22: RevisionService: maintenance: Done in 107ms
+2025-01-01 03:57:23: Running background sync on timer...
+2025-01-01 03:57:23: Preparing scheduled sync
+2025-01-01 03:57:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:02:23: Running background sync on timer...
+2025-01-01 04:02:23: Preparing scheduled sync
+2025-01-01 04:02:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:07:22: RevisionService: maintenance: Starting...
+2025-01-01 04:07:22: RevisionService: maintenance: Service is enabled
+2025-01-01 04:07:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 04:07:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 04:07:23: Running background sync on timer...
+2025-01-01 04:07:23: Preparing scheduled sync
+2025-01-01 04:07:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:12:23: Running background sync on timer...
+2025-01-01 04:12:23: Preparing scheduled sync
+2025-01-01 04:12:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:17:22: RevisionService: maintenance: Starting...
+2025-01-01 04:17:22: RevisionService: maintenance: Service is enabled
+2025-01-01 04:17:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 04:17:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 04:17:23: Running background sync on timer...
+2025-01-01 04:17:23: Preparing scheduled sync
+2025-01-01 04:17:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:22:23: Running background sync on timer...
+2025-01-01 04:22:23: Preparing scheduled sync
+2025-01-01 04:22:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:27:22: RevisionService: maintenance: Starting...
+2025-01-01 04:27:22: RevisionService: maintenance: Service is enabled
+2025-01-01 04:27:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 04:27:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 04:27:23: Running background sync on timer...
+2025-01-01 04:27:23: Preparing scheduled sync
+2025-01-01 04:27:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:32:23: Running background sync on timer...
+2025-01-01 04:32:23: Preparing scheduled sync
+2025-01-01 04:32:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:37:22: RevisionService: maintenance: Starting...
+2025-01-01 04:37:22: RevisionService: maintenance: Service is enabled
+2025-01-01 04:37:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 04:37:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 04:37:23: Running background sync on timer...
+2025-01-01 04:37:23: Preparing scheduled sync
+2025-01-01 04:37:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:42:23: Running background sync on timer...
+2025-01-01 04:42:23: Preparing scheduled sync
+2025-01-01 04:42:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:47:22: RevisionService: maintenance: Starting...
+2025-01-01 04:47:22: RevisionService: maintenance: Service is enabled
+2025-01-01 04:47:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 04:47:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 04:47:23: Running background sync on timer...
+2025-01-01 04:47:23: Preparing scheduled sync
+2025-01-01 04:47:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:52:23: Running background sync on timer...
+2025-01-01 04:52:23: Preparing scheduled sync
+2025-01-01 04:52:23: Sync cancelled - no sync target is selected.
+2025-01-01 04:57:22: RevisionService: maintenance: Starting...
+2025-01-01 04:57:22: RevisionService: maintenance: Service is enabled
+2025-01-01 04:57:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 04:57:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 04:57:23: Running background sync on timer...
+2025-01-01 04:57:23: Preparing scheduled sync
+2025-01-01 04:57:23: Sync cancelled - no sync target is selected.
+2025-01-01 05:02:23: Running background sync on timer...
+2025-01-01 05:02:23: Preparing scheduled sync
+2025-01-01 05:02:23: Sync cancelled - no sync target is selected.
+2025-01-01 05:07:22: RevisionService: maintenance: Starting...
+2025-01-01 05:07:22: RevisionService: maintenance: Service is enabled
+2025-01-01 05:07:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 05:07:22: RevisionService: maintenance: Done in 106ms
+2025-01-01 05:07:23: Running background sync on timer...
+2025-01-01 05:07:23: Preparing scheduled sync
+2025-01-01 05:07:23: Sync cancelled - no sync target is selected.
+2025-01-01 05:12:23: Running background sync on timer...
+2025-01-01 05:12:23: Preparing scheduled sync
+2025-01-01 05:12:23: Sync cancelled - no sync target is selected.
+2025-01-01 05:17:22: RevisionService: maintenance: Starting...
+2025-01-01 05:17:22: RevisionService: maintenance: Service is enabled
+2025-01-01 05:17:22: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 05:17:23: RevisionService: maintenance: Done in 121ms
+2025-01-01 05:17:23: Running background sync on timer...
+2025-01-01 05:17:23: Preparing scheduled sync
+2025-01-01 05:17:23: Sync cancelled - no sync target is selected.
+2025-01-01 05:22:24: Running background sync on timer...
+2025-01-01 05:22:24: Preparing scheduled sync
+2025-01-01 05:22:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:27:22: RevisionService: maintenance: Starting...
+2025-01-01 05:27:22: RevisionService: maintenance: Service is enabled
+2025-01-01 05:27:23: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 05:27:23: RevisionService: maintenance: Done in 106ms
+2025-01-01 05:27:24: Running background sync on timer...
+2025-01-01 05:27:24: Preparing scheduled sync
+2025-01-01 05:27:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:32:24: Running background sync on timer...
+2025-01-01 05:32:24: Preparing scheduled sync
+2025-01-01 05:32:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:37:23: RevisionService: maintenance: Starting...
+2025-01-01 05:37:23: RevisionService: maintenance: Service is enabled
+2025-01-01 05:37:23: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 05:37:23: RevisionService: maintenance: Done in 106ms
+2025-01-01 05:37:24: Running background sync on timer...
+2025-01-01 05:37:24: Preparing scheduled sync
+2025-01-01 05:37:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:42:24: Running background sync on timer...
+2025-01-01 05:42:24: Preparing scheduled sync
+2025-01-01 05:42:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:47:23: RevisionService: maintenance: Starting...
+2025-01-01 05:47:23: RevisionService: maintenance: Service is enabled
+2025-01-01 05:47:23: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 05:47:23: RevisionService: maintenance: Done in 106ms
+2025-01-01 05:47:24: Running background sync on timer...
+2025-01-01 05:47:24: Preparing scheduled sync
+2025-01-01 05:47:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:52:24: Running background sync on timer...
+2025-01-01 05:52:24: Preparing scheduled sync
+2025-01-01 05:52:24: Sync cancelled - no sync target is selected.
+2025-01-01 05:57:23: RevisionService: maintenance: Starting...
+2025-01-01 05:57:23: RevisionService: maintenance: Service is enabled
+2025-01-01 05:57:23: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 05:57:23: RevisionService: maintenance: Done in 106ms
+2025-01-01 05:57:24: Running background sync on timer...
+2025-01-01 05:57:24: Preparing scheduled sync
+2025-01-01 05:57:24: Sync cancelled - no sync target is selected.
+2025-01-01 06:02:24: Running background sync on timer...
+2025-01-01 06:02:24: Preparing scheduled sync
+2025-01-01 06:02:24: Sync cancelled - no sync target is selected.
+2025-01-01 06:07:23: RevisionService: maintenance: Starting...
+2025-01-01 06:07:23: RevisionService: maintenance: Service is enabled
+2025-01-01 06:07:23: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-01-01 06:07:23: RevisionService: maintenance: Done in 106ms
+2025-01-01 06:07:24: Running background sync on timer...
+2025-01-01 06:07:24: Preparing scheduled sync
+2025-01-01 06:07:24: Sync cancelled - no sync target is selected.
+2025-01-01 06:12:24: Running background sync on timer...
+2025-01-01 06:12:24: Preparing scheduled sync
+2025-01-01 06:12:24: Sync cancelled - no sync target is selected.

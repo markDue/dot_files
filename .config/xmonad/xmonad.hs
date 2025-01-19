@@ -4,10 +4,10 @@ import System.Posix.Env (getEnv)
 import Data.Maybe (maybe)
 
 import XMonad
-import XMonad.Config.Desktop
-import XMonad.Config.Gnome
-import XMonad.Config.Kde
-import XMonad.Config.Xfce
+--import XMonad.Config.Desktop
+--import XMonad.Config.Gnome
+--import XMonad.Config.Kde
+--import XMonad.Config.Xfce
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.ManageHelpers
@@ -36,6 +36,7 @@ main = xmonad
 
 myConfig = def
     { modMask    = mod4Mask      -- Rebind Mod to the Super key
+    , terminal = "kitty"       -- Rename the terminal
     , layoutHook = myLayout      -- Use custom layouts
     , manageHook = myManageHook  -- Match on certain windows
     }

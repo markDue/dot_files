@@ -1,3 +1,22 @@
-2024/10/20-14:17:01.666 3f63 Reusing MANIFEST /home/marc/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2024/10/20-14:17:01.667 3f63 Recovering log #20
-2024/10/20-14:17:01.936 3f63 Reusing old log /home/marc/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000020.log 
+2024/12/05-20:42:26.635 1f4b Reusing MANIFEST /home/marc/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/12/05-20:42:26.636 1f4b Recovering log #104
+2024/12/05-20:42:26.800 1f4b Reusing old log /home/marc/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000104.log 
+2024/12/05-20:43:18.245 1f4b Level-0 table #108: started
+2024/12/05-20:43:18.372 1f4b Level-0 table #108: 5158766 bytes OK
+2024/12/05-20:43:18.456 1f4b Delete type=0 #104
+2024/12/05-20:43:18.460 1f4b Compacting 4@0 + 3@1 files
+2024/12/05-20:43:18.586 1f4b Generated table #109@0: 6 keys, 2383812 bytes
+2024/12/05-20:43:18.687 1f4b Generated table #110@0: 7 keys, 2671368 bytes
+2024/12/05-20:43:18.870 1f4b Generated table #111@0: 13 keys, 2001877 bytes
+2024/12/05-20:43:18.871 1f4b Compacted 4@0 + 3@1 files => 7057057 bytes
+2024/12/05-20:43:18.972 1f4b compacted to: files[ 0 3 5 0 0 0 0 ]
+2024/12/05-20:43:18.974 1f4b Delete type=2 #93
+2024/12/05-20:43:18.974 1f4b Delete type=2 #94
+2024/12/05-20:43:18.974 1f4b Delete type=2 #97
+2024/12/05-20:43:18.975 1f4b Delete type=2 #101
+2024/12/05-20:43:18.975 1f4b Delete type=2 #103
+2024/12/05-20:43:18.975 1f4b Delete type=2 #105
+2024/12/05-20:43:18.975 1f4b Delete type=2 #108
+2024/12/05-20:44:25.006 1f52 Level-0 table #113: started
+2024/12/05-20:44:25.205 1f52 Level-0 table #113: 8264133 bytes OK
+2024/12/05-20:44:25.280 1f52 Delete type=0 #107

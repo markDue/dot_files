@@ -16,6 +16,12 @@ export TERM="xterm-256color"
 export EDITOR="nvim"
 export TERMINAL="kitty"
 
+if ! [[ "$CDPATH" =~ ".:$HOME/:/mnt/storage/" ]] then
+  CDPATH=".:$HOME/:/mnt/storage/"
+fi
+export CDPATH
+export LOCALE_ARCHIVE="$(nix profile list | grep glibcLocales | tail -n1 | cut -d ' ' -f4)/lib/locale/locale-archive"
+
 bindkey -e
 # autocompletion support
 autoload -Uz  compinit promptinit
@@ -41,4 +47,5 @@ if command -v theme.sh > /dev/null; then
 	alias thd='theme.sh --dark -i'
 fi
 #___prompt
-PROMPT='%F{#ce5666}=> %F{#87CEFA}%~%f%F{#f5f5f5} %f$(gitprompt)' 
+#PROMPT='%F{#ce5666}=> %F{#87CEFA}%~%f%F{#f5f5f5} %f$(gitprompt)' 
+PROMPT='%F{#ce5666}=> %F{#87CEFA}%~%f%F{#f5f5f5} %f' 
